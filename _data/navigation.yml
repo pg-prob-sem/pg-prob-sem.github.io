@@ -60,11 +60,11 @@
     url: "/roadmap/"
 
 - title: Talks
-  url: "/blog/"
+  url: "/talks/"
   side: left
   dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+  - title: "Talks Archive"
+    url: "/talks/archive/"
 
 - title: "Search"
   url: "/search/"
