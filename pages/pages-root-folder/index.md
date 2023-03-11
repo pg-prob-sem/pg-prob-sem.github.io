@@ -7,6 +7,7 @@
 layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
+teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 widget1:
   title: "26th April: Talk title"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
