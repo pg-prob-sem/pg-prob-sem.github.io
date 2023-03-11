@@ -1,22 +1,22 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/pg-prob-sem
   class: icon-github
-  title: Code und mehr...
+  title: Our code
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+# - name: YouTube
+#  url: http://www.youtube.com/PhlowMedia
+#  class: icon-youtube
+#  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
 - name: Twitter
   url: http://twitter.com/pg_prob
   class: icon-twitter
   title: "Follow us on Twitter"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+# - name: Mixcloud
+#  url: http://www.mixcloud.com/phlow/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
