@@ -32,7 +32,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
+  url: https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=PG-PROB-SEM&A=1
   text: Sign up to our mailing list here ›
   style: alert
 permalink: /index.html
@@ -42,11 +42,4 @@ permalink: /index.html
 #
 homepage: true
 ---
-#
-#  <div id="videoModal" class="reveal-modal large" data-reveal="">
-#  <div class="flex-video widescreen vimeo" style="display: block;">
-#    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-#  </div>
-#  <a class="close-reveal-modal">&#215;</a>
-# </div>
-#
+
