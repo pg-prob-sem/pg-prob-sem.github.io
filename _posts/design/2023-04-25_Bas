@@ -1,11 +1,11 @@
 ---
 layout: page-fullwidth
 title: "Probability"
-subheadline: "Reading Experience"
-meta_teaser: "Feeling Responsive uses Volkhov for headlines, Lato for everything else and if you are in need to show some code, it will be in Lucida Console."
+subheadline: "Prob"
+meta_teaser: "Prob"
 teaser: "<em>Prob Prob Prob</em> uses <a href='https://www.google.com/fonts/specimen/Volkhov'>Volkhov</a> for headlines, <a href='https://www.google.com/fonts/specimen/Lato'>Lato</a> for everything else and if you are in need to show some code, it will be in <a href='http://www.microsoft.com/typography/fonts/family.aspx?FID=18'>Lucida Console</a> or <a href='http://en.wikipedia.org/wiki/Monaco_(typeface)'>Monaco</a>."
 header:
-    image: homepage_typography.jpg
+    image: homepage_unsplash_12.jpg
     background-color: "#262930"
     caption: This is a caption for the header image with link
     caption_url: https://unsplash.com/
@@ -32,7 +32,7 @@ categories:
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## Lato – A Sans Serif Typeface Family
+## Prob prob prob
 
 [<dfn>Lato</dfn>][4] is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic. »Lato« means »Summer« in Polish. In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google. 
 
