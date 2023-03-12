@@ -32,12 +32,10 @@
 #    url: "/design/portfolio/"
 
 
-- title: Talks
-  url: "/talks/"
+- title: Talks Archive
+  url: "/talks/archive"
   side: left
-  dropdown:
-  - title: "Talks Archive"
-    url: "/talks/archive/"
+
 
 
 - title: Organisers
