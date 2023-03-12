@@ -6,9 +6,9 @@ subheadline         : ""
 teaser              : "The people behind the seminars"
 widget1:
   title: "Carmen C. van-de-l'Isle"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
+  url: 'https://people.bath.ac.uk/ccvdli20/index.html'
   image: widget-1-302x182.jpg
-  text: 'Quick talk summary.'
+  text: ''
 widget2:
   title: "24th May: Talk title"
   url: 'http://phlow.github.io/feeling-responsive/info/'
