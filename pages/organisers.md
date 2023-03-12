@@ -6,17 +6,17 @@ subheadline         : ""
 teaser              : "The people behind the seminars"
 widget1:
   title: "Carmen C. van-de-l'Isle"
-  url: 'https://people.bath.ac.uk/ccvdli20/index.html'
+  url: 'https://people.bath.ac.uk/ccvdli20/'
   image: widget-1-302x182.jpg
   text: ''
 widget2:
-  title: "24th May: Talk title"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
+  title: "Niclas Kupper"
+  url: 'https://people.bath.ac.uk/nmk37/'
   image: widget-1-302x182.jpg
   text: 'Quick talk summary.'
 widget3:
-  title: "29th June: Talk title"
-  url: 'https://github.com/Phlow/feeling-responsive'
+  title: "Pawel Rudnicki"
+  url: ''
   image: widget-github-303x182.jpg
   text: 'Quick talk summary.'
 header:
