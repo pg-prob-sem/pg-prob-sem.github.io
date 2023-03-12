@@ -7,7 +7,7 @@ teaser              : "The people behind the seminars"
 widget1:
   title: "Carmen C. van-de-l'Isle"
   url: 'https://people.bath.ac.uk/ccvdli20/'
-  image: widget-1-302x182.jpg
+  image: carmen.jpg
   text: ''
 widget2:
   title: "Niclas Kupper"
@@ -27,7 +27,6 @@ permalink           : "/organisers/"
 ### Carmen C. van-de-l'Isle
 My mathematical interests lie within discrete probability with specific interests in interacting particle systems and random processes on both random and fixed structures. I am currently a PhD student in Statistical Applied Mathematics at Bath (SAMBa) as part of the 7th cohort. My current project is on the symbiotic contact process on random structures and is supervised by Marcel Ortgiese and Sarah Penington. My current area of research concerns the comparison of the critical values for both the symbiotic contact process and the contact process on Galton-Watson trees.
 
-![Carmen C. van-de-l'Isle](carmen.jpeg)
 
 ### Nic Kupper
 I am currently doing a PhD at the University of Bath and I am supervised by Mathew Penrose. I am interested in random geometric graphs, that is random graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components behave.
