@@ -1,1 +1,7 @@
-
+---
+layout: blog
+title: "Organisers"
+teaser: "Meet the people behind the seminars"
+header:
+    image_fullwidth: "header-bus.jpg"
+---
