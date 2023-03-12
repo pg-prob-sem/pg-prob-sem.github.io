@@ -13,12 +13,12 @@ widget2:
   title: "Niclas Kupper"
   url: 'https://people.bath.ac.uk/nmk37/'
   image: widget-1-302x182.jpg
-  text: 'Quick talk summary.'
+  text: ''
 widget3:
   title: "Pawel Rudnicki"
-  url: ''
+  url: 'https://people.bath.ac.uk/pr558/'
   image: widget-github-303x182.jpg
-  text: 'Quick talk summary.'
+  text: ''
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
 permalink           : "/organisers/"
