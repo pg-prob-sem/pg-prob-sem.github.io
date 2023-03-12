@@ -5,17 +5,20 @@ title               : "Organisers"
 subheadline         : ""
 teaser              : "The people behind the seminars"
 header:
-   image_fullwidth  : "header_homepage_13.jpg"
+   image_fullwidth  : "header_unsplash_12.jpg"
 permalink           : "/organisers/"
 ---
 
-## Carmen  
+### Carmen C. van-de-l'Isle
 My mathematical interests lie within discrete probability with specific interests in interacting particle systems and random processes on both random and fixed structures. I am currently a PhD student in Statistical Applied Mathematics at Bath (SAMBa) as part of the 7th cohort. My current project is on the symbiotic contact process on random structures and is supervised by Marcel Ortgiese and Sarah Penington. My current area of research concerns the comparison of the critical values for both the symbiotic contact process and the contact process on Galton-Watson trees.
 
+![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png)
 
+### Nic Kupper
+I am currently doing a PhD at the University of Bath and I am supervised by Mathew Penrose. I am interested in random geometric graphs, that is random graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components behave.
 
-1. Carmen
-1. Pawel
-1. Nic
+### Pawel Rudnicki
+I am a PhD student working within the probability group at University of Bath, under the supervision of Daniel Kious. I am mainly interested in random walks in random environments, with a focus on reinforced random walks. My current research investigates reinforced digging random walks on trees and once-reinforced random walks on tree-like graphs, that is graphs with loops which additionally possess a useful tree structure. In particular, I study the phase transition for recurrence/transience of those walks on their respective graphs.
+
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
