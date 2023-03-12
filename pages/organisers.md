@@ -4,6 +4,21 @@ show_meta           : false
 title               : "Organisers"
 subheadline         : ""
 teaser              : "The people behind the seminars"
+widget1:
+  title: "Carmen C. van-de-l'Isle"
+  url: 'http://phlow.github.io/feeling-responsive/blog/'
+  image: widget-1-302x182.jpg
+  text: 'Quick talk summary.'
+widget2:
+  title: "24th May: Talk title"
+  url: 'http://phlow.github.io/feeling-responsive/info/'
+  image: widget-1-302x182.jpg
+  text: 'Quick talk summary.'
+widget3:
+  title: "29th June: Talk title"
+  url: 'https://github.com/Phlow/feeling-responsive'
+  image: widget-github-303x182.jpg
+  text: 'Quick talk summary.'
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
 permalink           : "/organisers/"
