@@ -7,17 +7,17 @@ teaser              : "The people behind the seminars"
 widget1:
   title: "Carmen C. van-de-l'Isle"
   url: 'https://people.bath.ac.uk/ccvdli20/'
-  image: carmen.jpeg
+  image: carmen.jpg
   text: ''
 widget2:
   title: "Niclas Kupper"
   url: 'https://people.bath.ac.uk/nmk37/'
-  image: widget-1-302x182.jpg
+  image: nic.jpg
   text: ''
 widget3:
   title: "Pawel Rudnicki"
   url: 'https://people.bath.ac.uk/pr558/'
-  image: widget-github-303x182.jpg
+  image: pawel.jpg
   text: ''
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
