@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout              : organisers
 show_meta           : false
 title               : "Organisers"
 subheadline         : ""
