@@ -7,7 +7,7 @@ teaser              : "The people behind the seminars"
 widget1:
   title: "Carmen C. van-de-l'Isle"
   url: 'https://people.bath.ac.uk/ccvdli20/'
-  image: carmen.jpg
+  image: carmen.jpeg
   text: ''
 widget2:
   title: "Niclas Kupper"
