@@ -16,6 +16,7 @@ widget1:
 widget2:
   title: "24th May: Talk title"
   url: 'http://phlow.github.io/feeling-responsive/info/'
+  image: widget-1-302x182.jpg
   text: 'Quick talk summary.'
 widget3:
   title: "29th June: Talk title"
