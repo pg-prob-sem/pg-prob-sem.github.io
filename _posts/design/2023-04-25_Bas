@@ -7,8 +7,8 @@ teaser: "First few lines of abstract"
 header:
     image: homepage_unsplash_12.jpg
     background-color: "#262930"
-    caption: 
-    caption_url: 
+    caption: caption
+    caption_url: https://unsplash.com/
 image:
     thumb:  homepage_typography-thumb.jpg
     homepage: homepage_typography.jpg
