@@ -16,12 +16,12 @@ widget1:
 widget2:
   title: "24th May: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker2/'
-  image: widget-1-302x182.jpg
+  image: placeholder.jpg
   text: 'Quick talk summary.'
 widget3:
   title: "29th June: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker3/'
-  image: widget-github-303x182.jpg
+  image: placeholder.jpg
   text: 'Quick talk summary.'
 #
 # Use the call for action to show a button on the frontpage
