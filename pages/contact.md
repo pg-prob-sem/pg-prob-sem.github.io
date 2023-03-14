@@ -5,6 +5,8 @@ meta_title          : "Contact us"
 subheadline         : ""
 teaser              : "Want to get in touch?"
 permalink           : "/contact/"
+header:
+   image_fullwidth  : "header_unsplash_12.jpg"
 ---
 
 Get in touch with us by emailing one of the organisers at:
