@@ -15,7 +15,7 @@ Get in touch with us by emailing one of the organisers at:
 
 Or use our joint email:
 
-• pg-prob-sem@gmail.com
+• pg-prob-sem [at] gmail.com
 
 We're always looking for new speakers!
 
