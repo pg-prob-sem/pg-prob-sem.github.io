@@ -13,16 +13,18 @@ widget1:
   url: 'https://pg-prob-sem.github.io/random%20graphs/bas/'
   image: bas.jpg
   text: 'Bas Lodewijks'
+  
 widget2:
   title: "24th May: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker2/'
   image: placeholder.jpg
-  text: 'Speaker's name'
+  text: 'Speakers name'
+  
 widget3:
   title: "29th June: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker3/'
   image: placeholder.jpg
-  text: 'Speaker's name'
+  text: 'Speakers name'
 #
 # Use the call for action to show a button on the frontpage
 #
