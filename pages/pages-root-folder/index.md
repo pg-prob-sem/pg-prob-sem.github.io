@@ -9,7 +9,7 @@ header:
   image_fullwidth: header_unsplash_12.jpg
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 widget1:
-  title: "26th April: A Study of the Random Recursive Tree"
+  title: "26th April:"
   url: 'https://pg-prob-sem.github.io/random%20graphs/bas/'
   image: bas.jpg
   text: 'Bas Lodewijks'
