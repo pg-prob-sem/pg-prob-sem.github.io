@@ -11,7 +11,7 @@ teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platfor
 widget1:
   title: "26th April: Talk title"
   url: 'https://pg-prob-sem.github.io/random%20graphs/bas/'
-  image: placeholder.jpg
+  image: bas.jpg
   text: 'Bas Lodewijks'
 widget2:
   title: "24th May: Talk title"
