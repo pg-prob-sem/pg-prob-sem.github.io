@@ -9,7 +9,7 @@ header:
   image_fullwidth: header_unsplash_12.jpg
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 widget1:
-  title: "26th April: Talk title"
+  title: "26th April: A Study of the Random Recursive Tree"
   url: 'https://pg-prob-sem.github.io/random%20graphs/bas/'
   image: bas.jpg
   text: 'Bas Lodewijks'
@@ -17,12 +17,12 @@ widget2:
   title: "24th May: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker2/'
   image: placeholder.jpg
-  text: 'Quick talk summary.'
+  text: 'Speaker's name'
 widget3:
   title: "29th June: Talk title"
   url: 'https://pg-prob-sem.github.io/category/speaker3/'
   image: placeholder.jpg
-  text: 'Quick talk summary.'
+  text: 'Speaker's name'
 #
 # Use the call for action to show a button on the frontpage
 #
