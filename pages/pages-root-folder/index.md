@@ -15,10 +15,10 @@ widget1:
   text: 'Bas Lodewijks'
   
 widget2:
-  title: "24th May: Talk title"
+  title: "31st May: TBA"
   url: 'https://pg-prob-sem.github.io/category/speaker2/'
   image: placeholder.jpg
-  text: 'Speakers name'
+  text: 'Zsófia Talyigás'
   
 widget3:
   title: "29th June: Talk title"
