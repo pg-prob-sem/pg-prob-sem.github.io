@@ -16,7 +16,7 @@ widget1:
   
 widget2:
   title: "31st May: TBA"
-  url: 'https://pg-prob-sem.github.io/category/speaker2/'
+  url: 'https://pg-prob-sem.github.io/category/zsofia/'
   image: placeholder.jpg
   text: 'Zsófia Talyigás'
   
