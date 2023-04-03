@@ -21,10 +21,10 @@ widget2:
   text: 'Zsófia Talyigás'
   
 widget3:
-  title: "29th June: Talk title"
-  url: 'https://pg-prob-sem.github.io/category/speaker3/'
+  title: "28th June: Talk title"
+  url: 'https://pg-prob-sem.github.io/category/noah/'
   image: placeholder.jpg
-  text: 'Speakers name'
+  text: 'Noah Halberstam'
 #
 # Use the call for action to show a button on the frontpage
 #
