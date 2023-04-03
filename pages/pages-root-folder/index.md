@@ -21,7 +21,7 @@ widget2:
   text: 'Zsófia Talyigás'
   
 widget3:
-  title: "28th June: Talk title"
+  title: "28th June: TBA"
   url: 'https://pg-prob-sem.github.io/category/noah/'
   image: placeholder.jpg
   text: 'Noah Halberstam'
