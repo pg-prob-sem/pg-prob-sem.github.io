@@ -15,8 +15,8 @@ widget1:
   text: 'Bas Lodewijks'
   
 widget2:
-  title: "31st May: TBA"
-  url: 'https://pg-prob-sem.github.io/category/zsofia/'
+  title: "31st May: Speed Results on the N-particle Branching Random Walk"
+  url: 'https://pg-prob-sem.github.io/branching_processes/zsofia/'
   image: placeholder.jpg
   text: 'Zsófia Talyigás'
   
