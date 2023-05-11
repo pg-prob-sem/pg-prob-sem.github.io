@@ -17,12 +17,12 @@ widget1:
 widget2:
   title: "31st May: Speed Results on the N-particle Branching Random Walk"
   url: 'https://pg-prob-sem.github.io/branching_processes/zsofia/'
-  image: placeholder.jpg
+  image: zsofia.jpg
   text: 'Zsófia Talyigás'
   
 widget3:
-  title: "28th June: TBA"
-  url: 'https://pg-prob-sem.github.io/category/noah/'
+  title: "28th June: Infinite trees in the arboreal gas"
+  url: 'https://pg-prob-sem.github.io/random_graphs/noah/'
   image: placeholder.jpg
   text: 'Noah Halberstam'
 #
