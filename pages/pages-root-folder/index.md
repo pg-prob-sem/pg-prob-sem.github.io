@@ -23,7 +23,7 @@ widget2:
 widget3:
   title: "28th June: Infinite trees in the arboreal gas"
   url: 'https://pg-prob-sem.github.io/random_graphs/noah/'
-  image: placeholder.jpg
+  image: noah.jpg
   text: 'Noah Halberstam'
 #
 # Use the call for action to show a button on the frontpage
