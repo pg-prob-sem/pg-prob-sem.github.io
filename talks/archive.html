@@ -35,7 +35,7 @@ permalink: "talks/archive/"
 		<br>
 
 		<dl class="accordion" data-accordion>
-			{% assign counter2 = 1 %}
+			{% assign counter2 = 1001 %}
 			{% for post in site.tags.previous limit:1000 %}
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter2 }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
