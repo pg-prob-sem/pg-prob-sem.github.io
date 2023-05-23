@@ -3,7 +3,7 @@ layout              : page
 show_meta           : false
 title               : "Frequently Asked Questions"
 subheadline         : ""
-teaser              : "Joining the Zoom calls"
+teaser              : ""
 
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
