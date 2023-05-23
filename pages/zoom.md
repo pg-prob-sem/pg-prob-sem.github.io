@@ -1,18 +1,20 @@
 ---
 layout              : page
 show_meta           : false
-title               : "Zoom"
+title               : "Frequently Asked Questions"
 subheadline         : ""
 teaser              : "Joining the Zoom calls"
 
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
-permalink           : "/zoom/"
+permalink           : "/faq/"
 ---
 
-All of our talks will be broadcast using Zoom. To join these talks please use the link below. 
+## Zoom
 
-### [Link to Join Zoom Talk](https://bath-ac-uk.zoom.us/j/92521129299?pwd=WFV1YnhuOEY5Q3lFaHRIM3RjUkcyUT09)
+All of our talks will be broadcast using Zoom. To join these talks please use the link below. \
+
+[Link to Join Zoom Talk](https://bath-ac-uk.zoom.us/j/92521129299?pwd=WFV1YnhuOEY5Q3lFaHRIM3RjUkcyUT09)
 
 **Zoom is saying I need an authorised account **\
 
@@ -28,9 +30,15 @@ Passcode: 830359\
 
 No! Paywalls are not the vibe.\
 
+## Recordings
+
 **Are the talks recorded?**\
 
 Unless a speaker specifically requests for their talk to be recorded, we are not recording any of these talks.\
+
+## Other
+
+**If we've missed something please email us!**
 
 
 
