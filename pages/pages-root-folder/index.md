@@ -8,23 +8,24 @@ layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
-widget1:
-  title: "26th April: A Study of the Random Recursive Tree"
-  url: 'https://pg-prob-sem.github.io/random_graphs/bas/'
-  image: bas.jpg
-  text: 'Bas Lodewijks'
   
-widget2:
+widget1:
   title: "31st May: Speed Results on the N-particle Branching Random Walk"
   url: 'https://pg-prob-sem.github.io/branching_processes/zsofia/'
   image: zsofia.jpg
   text: 'Zsófia Talyigás'
   
-widget3:
+widget2:
    title: "28th June: Infinite trees in the arboreal gas"
    url: 'https://pg-prob-sem.github.io/random_graphs/noah/'
    image: noah.jpg
    text: 'Noah Halberstam'
+   
+widget3:
+  title: "26th July: Pair interaction point processes"
+  url: 'https://pg-prob-sem.github.io/spatial_stochastics/steffen/'
+  image: steffen.jpg
+  text: 'Steffen Betsch'
    
 #
 # Use the call for action to show a button on the frontpage
