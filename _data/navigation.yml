@@ -42,8 +42,8 @@
   url: "/organisers/"
   side: left
   
-- title: Zoom
-  url: "/zoom/"
+- title: FAQ
+  url: "/faq/"
   side: left
 
 
