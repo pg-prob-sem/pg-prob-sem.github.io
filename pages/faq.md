@@ -18,7 +18,7 @@ All of our talks will be broadcast using Zoom. To join these talks please use th
 
 __Zoom is saying I need an authorised account__
 
-Because we are using our univeristy's Zoom licence, Zoom may ask you to sign in and tell you that you need to have an authorised account. Any account sign in will allow you to access our seminars, but some will mean that you are autromatically placed in a waiting room. If this occurs we'll make sure to let you in swiftly.
+Because we are using our university's Zoom licence, Zoom may ask you to sign in and tell you that you need to have an authorised account. Any account sign in will allow you to access our seminars, but some will mean that you are autromatically placed in a waiting room. If this occurs we'll make sure to let you in swiftly.
 
 **Zoom is asking for a passcode and/or meeting ID**
 
