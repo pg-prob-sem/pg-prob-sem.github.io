@@ -41,6 +41,10 @@
 - title: Organisers
   url: "/organisers/"
   side: left
+  
+- title: Zoom
+  url: "/zoom/"
+  side: left
 
 
 - title: "Contact"
