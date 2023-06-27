@@ -10,22 +10,22 @@ header:
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
   
 widget1:
-  title: "31st May: Speed Results on the N-particle Branching Random Walk"
-  url: 'https://pg-prob-sem.github.io/branching_processes/zsofia/'
-  image: zsofia.jpg
-  text: 'Zsófia Talyigás'
-  
-widget2:
    title: "28th June: Infinite trees in the arboreal gas"
    url: 'https://pg-prob-sem.github.io/random_graphs/noah/'
    image: noah.jpg
    text: 'Noah Halberstam'
    
-widget3:
+widget2:
   title: "26th July: Pair interaction point processes"
   url: 'https://pg-prob-sem.github.io/spatial_stochastics/steffen/'
   image: steffen.jpg
   text: 'Steffen Betsch'
+
+widget3:
+  title: "30th August: Gaussian Approximation of Poisson Functionals via Malliavin-Stein Method"
+  url: 'https://pg-prob-sem.github.io/steins_method/tara/'
+  image: tara.jpg
+  text: 'Tara Trauthwein'
    
 #
 # Use the call for action to show a button on the frontpage
