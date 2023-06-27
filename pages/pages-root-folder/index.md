@@ -23,7 +23,7 @@ widget2:
 
 widget3:
   title: "30th August: Gaussian Approximation of Poisson Functionals via Malliavin-Stein Method"
-  url: 'https://pg-prob-sem.github.io/steins_method/tara/'
+  url: 'https://pg-prob-sem.github.io/steins_method/Tara/'
   image: tara.jpg
   text: 'Tara Trauthwein'
    
