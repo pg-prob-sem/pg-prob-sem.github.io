@@ -14,7 +14,7 @@ permalink           : "/faq/"
 
 All of our talks will be broadcast using MS Teams. To join these talks please use the link below. 
 
-[Link to Join Zoom Talk](https://bath-ac-uk.zoom.us/j/92521129299?pwd=WFV1YnhuOEY5Q3lFaHRIM3RjUkcyUT09)
+[Link to Join MS Teams Talk](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_N2Q2NGY2NDEtYWVmNS00NzE3LWI0ZWMtMWFiZmE3NGM2MTc3%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522377e3d22-4ea1-422d-b0ad-8fcc89406b9e%2522%252c%2522Oid%2522%253a%252243af9e94-a882-4d59-8a92-d00c8899065e%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=c08d758b-9997-4686-be92-694f57977b3b&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
 
 __Zoom is saying I need an authorised account__
 
