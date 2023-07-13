@@ -10,9 +10,9 @@ header:
 permalink           : "/faq/"
 ---
 
-## Zoom
+## MS Teams
 
-All of our talks will be broadcast using Zoom. To join these talks please use the link below. 
+All of our talks will be broadcast using MS Teams. To join these talks please use the link below. 
 
 [Link to Join Zoom Talk](https://bath-ac-uk.zoom.us/j/92521129299?pwd=WFV1YnhuOEY5Q3lFaHRIM3RjUkcyUT09)
 
