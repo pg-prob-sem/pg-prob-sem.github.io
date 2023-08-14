@@ -16,8 +16,8 @@ widget1:
   text: 'Tara Trauthwein'
 
 widget2:
-  title: "27th September: TBA"
-  url: 'https://pg-prob-sem.github.io/category/felix'
+  title: "27th September: A spinal approach for the convergence of branching processes to the Brownian CRT"
+  url: 'https://pg-prob-sem.github.io/scaling_limit/felix'
   image: placeholder.jpg
   text: 'Félix Foutel-Rodier'
 
