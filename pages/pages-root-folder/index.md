@@ -18,7 +18,7 @@ widget1:
 widget2:
   title: "27th September: A spinal approach for the convergence of branching processes to the Brownian CRT"
   url: 'https://pg-prob-sem.github.io/scaling_limit/felix'
-  image: placeholder.jpg
+  image: felix.jpg
   text: 'Félix Foutel-Rodier'
 
 widget3:
