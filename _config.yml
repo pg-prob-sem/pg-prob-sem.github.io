@@ -252,3 +252,11 @@ asciidoctor:
 
 plugins:
   - jekyll-maps
+
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "./_maps") })
+
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: TRUE
