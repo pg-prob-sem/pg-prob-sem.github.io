@@ -244,3 +244,11 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+
+
+
+#for the maps!!
+
+plugins:
+  - jekyll-maps
