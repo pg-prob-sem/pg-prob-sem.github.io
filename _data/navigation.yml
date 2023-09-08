@@ -46,10 +46,6 @@
   url: "/faq/"
   side: left
 
-- title: "Page"
-  url: "/page/"
-  side: left
-
 - title: "Contact"
   url: "/contact/"
   side: right
