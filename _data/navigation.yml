@@ -50,3 +50,7 @@
 - title: "Contact"
   url: "/contact/"
   side: right
+
+  - title: "Page"
+  url: "/page/"
+  side: right
