@@ -11,9 +11,9 @@ permalink           : "/page/"
 ---
 
 
-<script type="text/javascript" src="java.html">
-      </script>
 
+
+<iframe src="/files/html/posts/predoc_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
