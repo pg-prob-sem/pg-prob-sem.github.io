@@ -12,7 +12,7 @@ output:
     variant: gfm+footnotes
     preserve_yaml: TRUE
 knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_R") })
 ---
 
 The combination of `tidyr::nest()` and `purrr:map()` can be used to
