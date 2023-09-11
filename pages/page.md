@@ -31,6 +31,7 @@ predoc %>%
   saveWidget(here::here('../r', 'predoc_map.html')) # save map widget
 
 
+<iframe src="/r/predoc_map.html" height="600px" width="100%" style="border:none;"></iframe>
 
   
 
