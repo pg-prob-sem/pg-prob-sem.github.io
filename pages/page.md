@@ -7,7 +7,7 @@ output:
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
 date: 2023-03-04
-permalink: /posts/2023/03/nest-map
+permalink: /page
 excerpt_separator: <!--more-->
 always_allow_html: true
 toc: true
