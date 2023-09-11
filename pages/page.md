@@ -1,22 +1,18 @@
 ---
-title: Presenting results from an arbitrary number of models
+layout              : page
+show_meta           : false
+title               : "Presenting results from an arbitrary number of models"
+subheadline         : ""
+teaser              : ""
+header:
+   image_fullwidth  : "header_unsplash_12.jpg"
+permalink           : "/page/" 
 output:
   md_document:
     variant: gfm+footnotes
     preserve_yaml: TRUE
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_posts") })
-date: 2023-03-04
-permalink: /page
-excerpt_separator: <!--more-->
-always_allow_html: true
-toc: true
-header:
- og_image: "posts/nest-map/fig-1.png"
-tags:
-  - tidyverse
-  - data-science
-  - visualization
 ---
 
 The combination of `tidyr::nest()` and `purrr:map()` can be used to
@@ -28,7 +24,7 @@ through this process. There are substantially fewer (none I’ve been able
 to find) that show you how to use these two functions to fit the same
 model to different features from your dataframe.
 
-<!--more-->
+
 
 While the former involves splitting your data into different subsets by
 row, the latter involves cycling through different columns. I recently
