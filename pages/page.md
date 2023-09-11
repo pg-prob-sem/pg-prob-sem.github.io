@@ -94,7 +94,7 @@ mtcars %>%
   ggsave(filename = "fig_obs_1.png")
 ```
 
-<img src="./fig_obs_1.png" style="display: block; margin: auto;" />
+<img src="fig_obs_1.png" style="display: block; margin: auto;" />
 
 # Multiple predictors
 
