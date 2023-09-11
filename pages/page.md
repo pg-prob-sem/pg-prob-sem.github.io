@@ -91,22 +91,10 @@ mtcars %>%
   labs(x = 'Cylinders', y = "Coefficient estimate") + 
   theme_bw() +
   theme(legend.position = 'bottom')
-  ggsave(
-  fig_obs-1.png,
-  plot = last_plot(),
-  device = NULL,
-  path = /r/,
-  scale = 1,
-  width = NA,
-  height = NA,
-  units = c("in", "cm", "mm", "px"),
-  dpi = 300,
-  limitsize = TRUE,
-  bg = NULL
-)
+  ggsave(fig_obs_1.png)
 ```
 
-<img src="/r/fig_obs-1.png" style="display: block; margin: auto;" />
+<img src="./fig_obs_1.png" style="display: block; margin: auto;" />
 
 # Multiple predictors
 
