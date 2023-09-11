@@ -15,6 +15,27 @@ knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_R") })
 ---
 
+
+## load htmlwidgets to save map widget
+library(htmlwidgets)
+
+## prep and plot
+predoc %>% 
+  geocode(address = Location, method = 'osm') %>% ## gecode locations
+  mutate(lab = str_c(Institution, Name,
+                     str_c('<a href="', URL, '" target="_PARENT">Program Info</a>'),
+                     sep = '<br>')) %>% # paste fields into popup text
+  leaflet() %>% # create leaflet map widget
+  addProviderTiles(providers$CartoDB.Positron) %>% # add muted palette basemap
+  addMarkers(lng = ~ long, lat = ~ lat, popup = ~ lab) %>% # add markers with popup text
+  saveWidget(here::here('../r', 'predoc_map.html')) # save map widget
+
+
+
+  
+
+
+
 The combination of `tidyr::nest()` and `purrr:map()` can be used to
 easily fit the same model to different subsets of a single dataframe.
 There are [many](https://tidyr.tidyverse.org/articles/nest.html)
