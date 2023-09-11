@@ -28,7 +28,7 @@ predoc %>%
   leaflet() %>% # create leaflet map widget
   addProviderTiles(providers$CartoDB.Positron) %>% # add muted palette basemap
   addMarkers(lng = ~ long, lat = ~ lat, popup = ~ lab) %>% # add markers with popup text
-  saveWidget(here::here('../r', 'predoc_map.html')) # save map widget
+  saveWidget(here::here('/r', 'predoc_map.html')) # save map widget
 
 
 <iframe src="/r/predoc_map.html" height="600px" width="100%" style="border:none;"></iframe>
@@ -91,9 +91,22 @@ mtcars %>%
   labs(x = 'Cylinders', y = "Coefficient estimate") + 
   theme_bw() +
   theme(legend.position = 'bottom')
+  ggsave(
+  fig_obs-1.png,
+  plot = last_plot(),
+  device = NULL,
+  path = /r/,
+  scale = 1,
+  width = NA,
+  height = NA,
+  units = c("in", "cm", "mm", "px"),
+  dpi = 300,
+  limitsize = TRUE,
+  bg = NULL
+)
 ```
 
-<img src="/images/posts/nest-map/fig_obs-1.png" style="display: block; margin: auto;" />
+<img src="/r/fig_obs-1.png" style="display: block; margin: auto;" />
 
 # Multiple predictors
 
