@@ -11,11 +11,12 @@ output:
   md_document:
     variant: gfm+footnotes
     preserve_yaml: TRUE
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../_R") })
 ---
 
-
+```{r setup, include=FALSE}
+knitr::opts_knit$set(base.dir = "/pg-prob-sem.github.io/", base.url = "/")
+knitr::opts_chunk$set(fig.path = "images/")
+```
 
 ``` r
 library(tidyverse)
