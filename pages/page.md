@@ -23,10 +23,7 @@ knitr::opts_chunk$set(fig.path = "images/")
 cars <- c(1, 3, 6, 4, 9)
 
 # Create a pie chart for cars
-pie(cars)
-dev.off()
-
 jpeg(file="saving_plot1.jpeg")
-hist(Temperature, col="darkgreen")
+pie(cars)
 dev.off()
 ```
