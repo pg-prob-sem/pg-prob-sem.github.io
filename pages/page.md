@@ -16,6 +16,19 @@ knit: (function(inputFile, encoding) {
 ---
 
 
+
+``` r
+library(tidyverse)
+library(broom)
+library(modelsummary)
+library(kableExtra)
+library(nationalparkcolors)
+
+print(1+1)
+```
+
+
+
 ## load htmlwidgets to save map widget
 library(htmlwidgets)
 
