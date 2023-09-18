@@ -27,7 +27,23 @@ library(nationalparkcolors)
 
 print(1+1)
 ```
-abc
+## Introduction
+3C data measuring the interaction frequency between two genomic coordinates can be represented graphically in different ways. Often, simple barplots are used and comics are drawn to indicate the genomic position of anchors and restriction fragments of interest. However, this can be tedious and errorprone.
+3C data can also be represented as arcs spanning from the anchor (aka viewpoint) to the regions of interest (aka restriction fragments) rendering a precise illustration of the genomic context. In these plots, the interaction frequency correlates with the hight of the arc. A published example of such a plot can be found [here](https://www.ncbi.nlm.nih.gov/pubmed/26308897).
+To my knowledge, there is no R package that conveniently generates this kind of plot. Below is my ggplot solution to generate '3C arc plots'. Feel free to email me with any questions, improvements or comments.
+
+### Load packages and set ggplot themes
+```{r,message=F}
+# load required packages
+library(tidyverse)
+# these are general theme settings I commonly use for publication-grade plots
+theme_linedraw_noframe <- theme_linedraw()+
+  theme(panel.grid = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(),
+        legend.justification = c(1, 1),
+        legend.position = c(1, 1)) # move the legend into the plot
+```
 
 
 ## load htmlwidgets to save map widget
