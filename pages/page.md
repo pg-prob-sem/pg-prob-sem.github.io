@@ -13,7 +13,7 @@ output:
     preserve_yaml: TRUE
 ---
 
-```{r setup, include=FALSE}
+``` r
 knitr::opts_knit$set(base.dir = "/pg-prob-sem.github.io/", base.url = "/")
 knitr::opts_chunk$set(fig.path = "images/")
 ```
