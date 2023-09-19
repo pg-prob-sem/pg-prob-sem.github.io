@@ -12,17 +12,8 @@ output:
     preserve_yaml: TRUE
 ---
 
-``` r
-knitr::opts_knit$set(base.dir = "/pg-prob-sem.github.io/", base.url = "/")
-knitr::opts_chunk$set(fig.path = "images/")
-```
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
-``` r
-# Define cars vector with 5 values
-cars <- c(1, 3, 6, 4, 9)
 
-# Create a pie chart for cars
-jpeg(file="saving_plot1.jpeg",
-pie(cars))
-dev.off()
-```
+abc
