@@ -43,6 +43,12 @@ callforaction:
   text: Sign up to our mailing list here ›
   style: alert
 permalink: /index.html
+#
+# This is a nasty hack to make the navigation highlight
+# this page as active in the topbar navigation
+#
+homepage: true
+---
 
 We pride ourselves on being an international seminar series. Below is a map showing all the univeristies and institutes that our speakers are from.
 
@@ -86,16 +92,4 @@ We pride ourselves on being an international seminar series. Below is a map show
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
   marker.bindPopup("Univeristy of Warwick: <a href='https://pg-prob-sem.github.io/category/Isabella/'> Isabella Goncalves de Alvarenga </a>");
-
-
-
-
-
-
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
-homepage: true
----
 
