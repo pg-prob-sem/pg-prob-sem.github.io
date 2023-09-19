@@ -44,6 +44,10 @@ output:
   
   marker.bindPopup("University of Luxembourg: <a href='https://pg-prob-sem.github.io/steins_method/Tara/'> Tara Trauthwein </a>");
 
+   var marker = L.marker([51.7579, -1.2618]).addTo(map); 
+  
+  marker.bindPopup("University of Oxford: <a href='https://pg-prob-sem.github.io/scaling_limit/felix/'> Félix Foutel-Rodier </a>");
+
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
   marker.bindPopup("Univeristy of Warwick: <a href='https://pg-prob-sem.github.io/category/Isabella/'> Isabella Goncalves de Alvarenga </a>");
