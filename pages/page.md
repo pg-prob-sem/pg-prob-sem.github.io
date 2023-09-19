@@ -20,18 +20,13 @@ output:
 <script>
   var map = L.map('map').setView([35,0], 2);
 
-  L.marker([51.505, -0.09]).addTo(map)
-  .bindPopup('Popup Content Here');
-
-
-
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
-  marker.bindPopup("This is a marker with a popup.<br />You can customize the content here.");
+  marker.bindPopup("Warwick: Isabella Goncalves de Alvarenga <a href='https://pg-prob-sem.github.io/category/Isabella/'></a>");
 
 </script>
 
