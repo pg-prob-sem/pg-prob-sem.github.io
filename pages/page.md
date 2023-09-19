@@ -15,5 +15,6 @@ output:
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
+<div id="map" style="height: 400px;"></div>
 
-abc
+abcd
