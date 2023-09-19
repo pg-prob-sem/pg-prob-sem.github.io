@@ -29,7 +29,7 @@ output:
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-  var marker = L.marker([52.3793, 1.5615]).addTo(map);
+  var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
   marker.bindPopup("This is a marker with a popup.<br />You can customize the content here.");
 
