@@ -38,8 +38,11 @@ output:
 
    var marker = L.marker([49.0119, 8.4170]).addTo(map);
   
-  marker.bindPopup("Karlsruhe Institute of Technology : <a href='https://pg-prob-sem.github.io/spatial_stochastics/steffen/'> Steffen Betsch </a>");
+  marker.bindPopup("Karlsruhe Institute of Technology: <a href='https://pg-prob-sem.github.io/spatial_stochastics/steffen/'> Steffen Betsch </a>");
 
+   var marker = L.marker([49.5046, 5.9484]).addTo(map);
+  
+  marker.bindPopup("University of Luxembourg: <a href='https://pg-prob-sem.github.io/steins_method/Tara/'> Tara Trauthwein </a>");
 
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
