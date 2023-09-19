@@ -28,6 +28,12 @@ output:
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
+
+  var marker = L.marker([51.505, -0.09]).addTo(map);
+  
+  marker.bindPopup("This is a marker with a popup.<br />You can customize the content here.");
+
+  marker.openPopup();
 </script>
 
-attempting to add marker 4
+attempting to add marker 5
