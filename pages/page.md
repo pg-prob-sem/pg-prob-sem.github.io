@@ -28,4 +28,4 @@ output:
   }).addTo(map);
 </script>
 
-removed the second map
+attempting to add marker
