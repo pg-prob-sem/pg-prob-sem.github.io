@@ -17,8 +17,8 @@ knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ``` r
-# knitr::opts_knit$set(base.dir = "/pg-prob-sem.github.io/", base.url = "/")
-# knitr::opts_chunk$set(fig.path = "images/")
+knitr::opts_knit$set(base.dir = "/pg-prob-sem.github.io/", base.url = "/")
+knitr::opts_chunk$set(fig.path = "images/")
 ```
 
 ``` r
