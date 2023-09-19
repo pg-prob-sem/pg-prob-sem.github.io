@@ -26,16 +26,16 @@ output:
 
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
-  marker.bindPopup("Warwick: Isabella Goncalves de Alvarenga <a href='https://pg-prob-sem.github.io/category/Isabella/'></a>");
+  marker.bindPopup("Warwick: <a href='https://pg-prob-sem.github.io/category/Isabella/'> Isabella Goncalves de Alvarenga </a>");
 
-
+  var marker = L.marker([52.3793, -1.5615]).addTo(map);
+  
+  marker.bindPopup(": <a href='https://pg-prob-sem.github.io/category/Isabella/'>  </a>");
+   
   var marker = L.marker([45.7814, 4.8671]).addTo(map);
   
-  marker.bindPopup("Institute Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> Bas Lodewijks </a>");
+  marker.bindPopup("Institut Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> Bas Lodewijks </a>");
 
 </script>
 
-attempting to add marker 6
-Warwick uni 52.3793° N, 1.5615° W
-
-45.7814° N, 4.8671° E
+48.2132° N, 16.3601° E
