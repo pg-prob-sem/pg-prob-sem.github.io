@@ -48,14 +48,12 @@ output:
   
   marker.bindPopup("University of Oxford: <a href='https://pg-prob-sem.github.io/scaling_limit/felix/'> Félix Foutel-Rodier </a>");
 
+
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
   marker.bindPopup("Univeristy of Warwick: <a href='https://pg-prob-sem.github.io/category/Isabella/'> Isabella Goncalves de Alvarenga </a>");
 
-  
-   
-  
 
 </script>
 
-48.2132° N, 16.3601° E
+
