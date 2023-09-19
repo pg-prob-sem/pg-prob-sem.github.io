@@ -1,7 +1,6 @@
 ---
 layout              : page
-show_meta           : false
-title               : "Presenting results from an arbitrary number of models"
+title               : "title"
 subheadline         : ""
 teaser              : ""
 header:
@@ -23,7 +22,7 @@ knitr::opts_chunk$set(fig.path = "images/")
 cars <- c(1, 3, 6, 4, 9)
 
 # Create a pie chart for cars
-jpeg(file="saving_plot1.jpeg")
-pie(cars)
+jpeg(file="saving_plot1.jpeg",
+pie(cars))
 dev.off()
 ```
