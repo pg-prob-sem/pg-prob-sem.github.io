@@ -50,7 +50,7 @@ permalink: /index.html
 homepage: true
 ---
 
-We pride ourselves on being an international seminar series. Below is a map showing all the univeristies and institutes that our speakers are from.
+### We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from.
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
