@@ -33,7 +33,6 @@ output:
   
   marker.bindPopup("This is a marker with a popup.<br />You can customize the content here.");
 
-  marker.openPopup();
 </script>
 
-attempting to add marker 5
+attempting to add marker 6
