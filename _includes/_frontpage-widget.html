@@ -15,7 +15,6 @@
   .frontpage-widget {
     border: 6px solid #ffcc00;
     border-radius: 20px;
-    text-align: center;
     overflow: hidden; /* Ensure content does not exceed the fixed height */
   }
 
@@ -34,7 +33,8 @@
 
 
 <div class="medium-4 columns frontpage-widget">
-	<h2 class="font-size-h3 t10">Next:</h2>
+	{% if include.widget.month %}
+		{{ include.widget.month }}
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% elsif widget_url == empty %}
