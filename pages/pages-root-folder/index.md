@@ -11,21 +11,21 @@ teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platfor
   
 widget1:
   month: August
-  title: "30th August: Gaussian Approximation of Poisson Functionals via Malliavin-Stein Method"
+  title: "Gaussian Approximation of Poisson Functionals via Malliavin-Stein Method"
   url: 'https://pg-prob-sem.github.io/steins_method/Tara/'
   image: tara.jpg
   text: 'Tara Trauthwein'
 
 widget2:
   month: September
-  title: "27th September: A spinal approach for the convergence of branching processes to the Brownian CRT"
+  title: "A spinal approach for the convergence of branching processes to the Brownian CRT"
   url: 'https://pg-prob-sem.github.io/scaling_limit/felix'
   image: felix.jpg
   text: 'Félix Foutel-Rodier'
 
 widget3:
   month: October
-  title: "25th October: TBA"
+  title: "TBA"
   url: 'https://pg-prob-sem.github.io/category/Isabella'
   image: placeholder.jpg
   text: 'Isabella Goncalves de Alvarenga'
