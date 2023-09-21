@@ -13,15 +13,28 @@
 
 <style>
   .frontpage-widget {
-    border: 6px solid #ffcc00; /* Change the color to your desired highlight color */
-    border-radius: 20px; /* Adjust the radius to control the roundness of the corners */
-    padding: 20px; /* Optional: Add padding to create space between the content and the border */
+    border: 6px solid #ffcc00;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden; /* Ensure content does not exceed the fixed height */
+  }
+
+  .widget-content {
+    height: 250px; /* Adjust the fixed height as needed */
+    padding: 10px;
+  }
+
+  .frontpage-widget h2.font-size-h3.t10 {
+    font-size: 24px;
+    color: #333;
   }
 </style>
 
 
 
+
 <div class="medium-4 columns frontpage-widget">
+	<h2 class="font-size-h3 t10">Next:</h2>
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% elsif widget_url == empty %}
