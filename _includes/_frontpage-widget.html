@@ -29,6 +29,13 @@
     font-size: 36px;
     color: rgb(24,67,202);
   }
+.button-container {
+    margin-top: auto; /* Push the button to the bottom */
+  }
+
+  .frontpage-widget .button {
+    margin: 0; /* Reset any margin applied to the button */
+  }
 </style>
 
 
@@ -48,5 +55,7 @@
 	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
 
 	{% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}
-	{% if widget_url != empty %}<p><a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a></p>{% endif %}
+	<div class="button-container">
+        {% if widget_url != empty %}<a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a>{% endif %}
+      </div>
 </div>
