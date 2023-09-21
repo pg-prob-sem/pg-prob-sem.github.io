@@ -11,6 +11,13 @@
 
 {% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
 
+<style>
+  .frontpage-widget {
+    border: 2px solid #ffcc00; /* Change the color to your desired highlight color */
+    padding: 10px; /* Optional: Add padding to create space between the content and the border */
+  }
+</style>
+
 
 <div class="medium-4 columns frontpage-widget">
 	{% if include.widget.video %}
