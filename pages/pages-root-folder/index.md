@@ -10,21 +10,21 @@ header:
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
   
 widget1:
-  month: August
+  month: "August"
   title: "Gaussian Approximation of Poisson Functionals via Malliavin-Stein Method"
   url: 'https://pg-prob-sem.github.io/steins_method/Tara/'
   image: tara.jpg
   text: 'Tara Trauthwein'
 
 widget2:
-  month: September
+  month: "September"
   title: "A spinal approach for the convergence of branching processes to the Brownian CRT"
   url: 'https://pg-prob-sem.github.io/scaling_limit/felix'
   image: felix.jpg
   text: 'Félix Foutel-Rodier'
 
 widget3:
-  month: October
+  month: "October"
   title: "TBA"
   url: 'https://pg-prob-sem.github.io/category/Isabella'
   image: placeholder.jpg
