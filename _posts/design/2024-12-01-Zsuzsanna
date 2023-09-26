@@ -1,0 +1,32 @@
+---
+layout: page
+subheadline: November 29th  
+title:  "Luis Mario Chaparro Jáquez: TBA"
+teaser: " "
+meta_teaser: " "
+breadcrumb: true
+categories:
+    - category
+tags:
+    - tag
+    - upcoming
+image:
+    title: placeholder.jpg
+    caption: Luis Mario Chaparro Jáquez
+    caption_url: https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez
+header:
+   image_fullwidth  : "header_unsplash_12.jpg"
+author: mo
+---
+
+
+## Abstract
+
+## About Luis
+
+Luis is currently a second year PhD Student under the supervision of [Elena Issoglio](https://eps.leeds.ac.uk/maths/staff/4041/dr-elena-issoglio) and [Jan Palczewski](https://eps.leeds.ac.uk/maths/staff/4069/dr-jan-palczewski). He completed his undergraduate studies on Engineering Mathematics in the Universidad Autónoma de Chihuahua, in Chihuahua, México on 2020. During his undergrad, he developed an interest in computing and pure mathematics, in particular in probability theory and mathematical analysis. His current work is on the theoretical analysis of numerical schemes for SDEs and McKean-Vlasov SDEs with distributional drift. Additionally to his PhD project he works as a Tutor for The Brilliant Club, helping students from under-represented backgrounds to access higher education. On his personal [website](https://www.lmcj.xyz), he occasionally talks about his research and other interests.
+
+
+## Other Category talks
+{: .t60 }
+{% include list-posts tag='tag' %}
