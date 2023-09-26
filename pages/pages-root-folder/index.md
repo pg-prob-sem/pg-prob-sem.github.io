@@ -26,7 +26,7 @@ widget2:
 widget3:
   month: "October"
   title: "Multitype Contact Process"
-  url: 'https://pg-prob-sem.github.io/category/Isabella'
+  url: 'https://pg-prob-sem.github.io/random_processes/Isabella'
   image: isabella.jpg
   text: 'Isabella Goncalves de Alvarenga'
 
