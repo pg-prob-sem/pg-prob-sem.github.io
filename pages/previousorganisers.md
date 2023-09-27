@@ -12,4 +12,4 @@ output:
     preserve_yaml: TRUE
 ---
 
-* [Pawel Rudnicki](https://people.bath.ac.uk/pr558/index.html)https://people.bath.ac.uk/pr558/index.html, Univeristy of Bath (March 2023-September 2023)
+* [Pawel Rudnicki](https://people.bath.ac.uk/pr558/index.html), University of Bath (March 2023-September 2023)
