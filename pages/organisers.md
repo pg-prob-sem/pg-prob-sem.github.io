@@ -17,7 +17,7 @@ widget2:
 widget3:
   title: "Lukas Lüchtrath"
   url: 'https://wias-berlin.de/people/luechtrath/?lang=1'
-  image: lukas.jpeg
+  image: lukas.jpg
   text: ''
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
