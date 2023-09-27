@@ -15,8 +15,8 @@ widget2:
   image: nic.jpg
   text: ''
 widget3:
-  title: "Pawel Rudnicki"
-  url: 'https://people.bath.ac.uk/pr558/'
+  title: "Lukas Lüchtrath"
+  url: 'https://wias-berlin.de/people/luechtrath/?lang=1'
   image: pawel.jpg
   text: ''
 header:
