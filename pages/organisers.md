@@ -34,5 +34,8 @@ I am currently doing a PhD at the University of Bath and I am supervised by Math
 ### Pawel Rudnicki
 I am a PhD student working within the probability group at University of Bath, under the supervision of Daniel Kious. I am mainly interested in random walks in random environments, with a focus on reinforced random walks. My current research investigates reinforced digging random walks on trees and once-reinforced random walks on tree-like graphs, that is graphs with loops which additionally possess a useful tree structure. In particular, I study the phase transition for recurrence/transience of those walks on their respective graphs.
 
+<button onclick="window.location.href='https://pg-prob-sem.github.io/previousorganisers/'" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Go to Another Page</button>
+
+
 
  [1]: {{ site.url }}{{ site.baseurl }}/documentation/
