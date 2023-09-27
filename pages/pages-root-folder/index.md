@@ -94,5 +94,9 @@ We pride ourselves on being an international seminar series. Below is a map show
 
   var marker = L.marker([52.3793, -1.5615]).addTo(map);
   
-  marker.bindPopup("Univeristy of Warwick: <a href='https://pg-prob-sem.github.io/random_processes/Isabella/'> Isabella Goncalves de Alvarenga </a>");
+  marker.bindPopup("University of Warwick: <a href='https://pg-prob-sem.github.io/random_processes/Isabella/'> Isabella Goncalves de Alvarenga </a>");
+
+  var marker = L.marker([53.8008, -1.5491]).addTo(map);
+  
+  marker.bindPopup("University of Leeds: <a href='https://pg-prob-sem.github.io/SDEs/Luis/'> Luis Mario Chaparro Jáquez </a>");
 
