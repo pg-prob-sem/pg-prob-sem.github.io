@@ -31,10 +31,11 @@ My mathematical interests lie within discrete probability with specific interest
 ### Nic Kupper
 I am currently doing a PhD at the University of Bath and I am supervised by Mathew Penrose. I am interested in random geometric graphs, that is random graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components behave.
 
-### Pawel Rudnicki
-I am a PhD student working within the probability group at University of Bath, under the supervision of Daniel Kious. I am mainly interested in random walks in random environments, with a focus on reinforced random walks. My current research investigates reinforced digging random walks on trees and once-reinforced random walks on tree-like graphs, that is graphs with loops which additionally possess a useful tree structure. In particular, I study the phase transition for recurrence/transience of those walks on their respective graphs.
+### Lukas Lüchtrath
+I am currently a post-doc in [Benedikt Jahnel](https://www.wias-berlin.de/people/jahnel/)'s group [Probabilistic Methods for Dynamic Communication Networks](https://www.wias-berlin.de/research/lgs/lg6/index.jsp?lang=1) at Wias Berlin. My main area of interest is probability theory; especially spatial stochastic, complex networks and percolation. I did my PhD under the supervision of [Peter Mörters](http://www.mi.uni-koeln.de/~moerters/) at the University of Cologne. I did my Master's in mathematics in 2018 and my Bachelor's in business mathematics in 2014 at University of Cologne.
 
-<button onclick="window.location.href='https://pg-prob-sem.github.io/previousorganisers/'" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Go to Another Page</button>
+
+<button onclick="window.location.href='https://pg-prob-sem.github.io/previousorganisers/'" style="background-color: #2b5dd3; color: #fff; padding: 10px 20px; border: none; border-radius: 5px;">Previous Organisers</button>
 
 
 
