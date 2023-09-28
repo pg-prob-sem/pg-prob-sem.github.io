@@ -1,8 +1,8 @@
 ---
 layout: page
 subheadline: December 13th  
-title:  ": TBA"
-teaser: " Zsuzsanna Baran"
+title:  "Zsuzsanna Baran: TBA"
+teaser: " "
 meta_teaser: " "
 breadcrumb: true
 categories:
