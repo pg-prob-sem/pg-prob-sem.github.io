@@ -10,7 +10,7 @@ widget1:
   image: carmen.jpg
   text: ''
 widget2:
-  title: "Niclas Kupper"
+  title: "Niclas Küpper"
   url: 'https://people.bath.ac.uk/nmk37/'
   image: nic.jpg
   text: ''
@@ -25,11 +25,11 @@ permalink           : "/organisers/"
 ---
 
 ### Carmen C. van-de-l'Isle
-My mathematical interests lie within discrete probability with specific interests in interacting particle systems and random processes on both random and fixed structures. I am currently a PhD student in Statistical Applied Mathematics at Bath (SAMBa) as part of the 7th cohort. My current project is on the symbiotic contact process on random structures and is supervised by Marcel Ortgiese and Sarah Penington. My current area of research concerns the comparison of the critical values for both the symbiotic contact process and the contact process on Galton-Watson trees.
+My mathematical interests lie within discrete probability with specific interests in interacting particle systems and random processes on both random and fixed structures. I am currently a PhD student in Statistical Applied Mathematics at Bath [(SAMBa)](https://samba.ac.uk) as part of the 7th cohort. My current project is on the symbiotic contact process on random structures and is supervised by [Marcel Ortgiese](https://people.bath.ac.uk/ma2mo/) and [Sarah Penington](https://people.bath.ac.uk/sp2355/). My current area of research concerns the comparison of the critical values for both the symbiotic contact process and the contact process on Galton-Watson trees.
 
 
-### Nic Kupper
-I am currently doing a PhD at the University of Bath and I am supervised by Mathew Penrose. I am interested in random geometric graphs, that is random graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components behave.
+### Nic Küpper
+I am currently doing a PhD at the University of Bath and I am supervised by [Mathew Penrose](https://people.bath.ac.uk/masmdp/). I am interested in random geometric graphs, that is random graphs embedded in a metric space. At the moment I am studying the Random Connection Model in Euclidean space and extending results from simpler models on how large components behave.
 
 ### Lukas Lüchtrath
 I am currently a post-doc in [Benedikt Jahnel](https://www.wias-berlin.de/people/jahnel/)'s group [Probabilistic Methods for Dynamic Communication Networks](https://www.wias-berlin.de/research/lgs/lg6/index.jsp?lang=1) at Wias Berlin. My main area of interest is probability theory; especially spatial stochastic, complex networks and percolation. I did my PhD under the supervision of [Peter Mörters](http://www.mi.uni-koeln.de/~moerters/) at the University of Cologne. I did my Master's in mathematics in 2018 and my Bachelor's in business mathematics in 2014 at University of Cologne.
