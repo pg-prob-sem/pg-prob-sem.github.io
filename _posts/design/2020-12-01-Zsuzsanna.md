@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: December 13th  
+subheadline: December 13th 2023 
 title:  "Zsuzsanna Baran: TBA"
 teaser: " "
 meta_teaser: " "
