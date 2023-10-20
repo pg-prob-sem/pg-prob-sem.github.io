@@ -78,7 +78,7 @@ We pride ourselves on being an international seminar series. Below is a map show
 
   var marker = L.marker([52.2054, 0.1132]).addTo(map);
   
-  marker.bindPopup("University of Cambridge: <a href='https://pg-prob-sem.github.io/random_graphs/noah/'> Noah Halberstam </a>");
+  marker.bindPopup("University of Cambridge: <a href='https://pg-prob-sem.github.io/random_graphs/noah/'> Noah Halberstam </a>, and <a href='https://pg-prob-sem.github.io/category/Zsuzsanna/'> Zsuzsanna Baran </a>");
 
    var marker = L.marker([49.0119, 8.4170]).addTo(map);
   
