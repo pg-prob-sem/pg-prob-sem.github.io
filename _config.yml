@@ -247,5 +247,7 @@ asciidoctor:
 
 
 
-
+MathJax:
+  TeX:
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
 
