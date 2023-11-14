@@ -13,7 +13,7 @@ Get in touch with us by emailing one of the organisers at:
 
 * ccvdli20 [at] bath.ac.uk (Carmen van-de-l'Isle)
 * nmk37 [at] bath.ac.uk (Nic Kupper)
-* pr558 [at] bath.ac.uk (Pawel Rudnicki)
+* luechtrath [at] wias-berlin.de (Lukas Lüchtrath)
 
 Or use our joint email:
 
