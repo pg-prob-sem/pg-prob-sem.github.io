@@ -100,3 +100,7 @@ We pride ourselves on being an international seminar series. Below is a map show
   
   marker.bindPopup("University of Leeds: <a href='https://pg-prob-sem.github.io/SDEs/Luis/'> Luis Mario Chaparro Jáquez </a>");
 
+  var marker = L.marker([40.7287, -73.9957]).addTo(map);
+  
+  marker.bindPopup("New York University Courant Institute of Mathematical Sciences: <a href='https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'> Jiaming Chen </a>");
+
