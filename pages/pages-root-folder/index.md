@@ -103,9 +103,7 @@ We pride ourselves on being an international seminar series. Below is a map show
   var marker = L.marker([40.7287, -73.9957]).addTo(map);
   
   marker.bindPopup("New York University Courant Institute of Mathematical Sciences: <a href='https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'> Jiaming Chen </a>");
-
-  52.5126° N, 13.3963° E
-
+  
 var marker = L.marker([52.5126, 13.3963]).addTo(map);
   
   marker.bindPopup("Weierstraß Institute (WIAS): <a href='https://pg-prob-sem.github.io/category/Jonas/'> Jonas Köppl </a>");
