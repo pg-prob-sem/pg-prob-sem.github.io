@@ -27,7 +27,7 @@ widget3:
   month: "January"
   title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
   url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
-  image: Jiaming.jpg
+  image: jiaming.jpg
   text: 'Jiaming Chen'
 
    
