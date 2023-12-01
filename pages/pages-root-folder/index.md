@@ -10,25 +10,25 @@ header:
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 
 widget1:
-  month: "October"
-  title: "Multitype Contact Process"
-  url: 'https://pg-prob-sem.github.io/random_processes/Isabella'
-  image: isabella.jpg
-  text: 'Isabella Goncalves de Alvarenga'
-
-widget2:
   month: "November"
   title: "A numerical scheme for SDEs with distributional drift"
   url: 'https://pg-prob-sem.github.io/sdes/Luis/'
   image: luis.jpg
   text: 'Luis Mario Chaparro Jáquez'
 
-widget3:
+widget2:
   month: "December"
   title: "Phase transition for cutoff on graphs with an added weighted random matching"
   url: 'https://pg-prob-sem.github.io/random_graphs/Zsuzsa/'
   image: Zsuzsa.jpg
   text: 'Zsuzsa Baran'
+
+widget3:
+  month: "January"
+  title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
+  url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
+  image: Jiaming.jpg
+  text: 'Jiaming Chen'
 
    
 #
@@ -104,3 +104,8 @@ We pride ourselves on being an international seminar series. Below is a map show
   
   marker.bindPopup("New York University Courant Institute of Mathematical Sciences: <a href='https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'> Jiaming Chen </a>");
 
+  52.5126° N, 13.3963° E
+
+var marker = L.marker([52.5126, 13.3963]).addTo(map);
+  
+  marker.bindPopup("Weierstraß Institute (WIAS): <a href='https://pg-prob-sem.github.io/category/Jonas/'> Jonas Köppl </a>");
