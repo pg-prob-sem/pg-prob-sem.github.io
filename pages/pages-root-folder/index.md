@@ -9,26 +9,27 @@ header:
   image_fullwidth: header_unsplash_12.jpg
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 
-widget1:
-  month: "November"
-  title: "A numerical scheme for SDEs with distributional drift"
-  url: 'https://pg-prob-sem.github.io/sdes/Luis/'
-  image: luis.jpg
-  text: 'Luis Mario Chaparro Jáquez'
 
-widget2:
+widget1:
   month: "December"
   title: "Phase transition for cutoff on graphs with an added weighted random matching"
   url: 'https://pg-prob-sem.github.io/random_graphs/Zsuzsa/'
   image: Zsuzsa.jpg
   text: 'Zsuzsa Baran'
 
-widget3:
+widget2:
   month: "January"
   title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
   url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
   image: jiaming.jpg
   text: 'Jiaming Chen'
+
+widget3:
+  month: "February"
+  title: "TBA"
+  url: 'https://pg-prob-sem.github.io/category/Jonas/'
+  image: jonas.jpg
+  text: 'Jonas Köppl'
 
    
 #
