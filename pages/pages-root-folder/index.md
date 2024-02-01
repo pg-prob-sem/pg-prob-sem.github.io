@@ -24,7 +24,7 @@ widget2:
   image: jonas.jpg
   text: 'Jonas Köppl'
 
-widget2:
+widget3:
   month: "March"
   title: "TBA"
   url: 'https://pg-prob-sem.github.io/category/Andjela/'
