@@ -11,25 +11,25 @@ teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platfor
 
 
 widget1:
-  month: "December"
-  title: "Phase transition for cutoff on graphs with an added weighted random matching"
-  url: 'https://pg-prob-sem.github.io/random_graphs/Zsuzsa/'
-  image: Zsuzsa.jpg
-  text: 'Zsuzsa Baran'
-
-widget2:
   month: "January"
   title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
   url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
   image: jiaming.jpg
   text: 'Jiaming Chen'
 
-widget3:
+widget2:
   month: "February"
   title: "TBA"
   url: 'https://pg-prob-sem.github.io/category/Jonas/'
   image: jonas.jpg
   text: 'Jonas Köppl'
+
+widget2:
+  month: "March"
+  title: "TBA"
+  url: 'https://pg-prob-sem.github.io/category/Andjela/'
+  image: placeholder.jpg
+  text: 'Andjela Saekovic'
 
    
 #
@@ -78,7 +78,7 @@ We pride ourselves on being an international seminar series. Below is a map show
 
   var marker = L.marker([52.2054, 0.1132]).addTo(map);
   
-  marker.bindPopup("University of Cambridge: <a href='https://pg-prob-sem.github.io/random_graphs/noah/'> Noah Halberstam </a>, and <a href='https://pg-prob-sem.github.io/random_graphs/Zsuzsa/'> Zsuzsa Baran </a>");
+  marker.bindPopup("University of Cambridge: <a href='https://pg-prob-sem.github.io/random_graphs/noah/'> Noah Halberstam </a>, <a href='https://pg-prob-sem.github.io/random_graphs/Zsuzsa/'> Zsuzsa Baran </a>, and <a href='https://pg-prob-sem.github.io/category/Andjela/'> Andjela Saekovic</a>");
 
    var marker = L.marker([49.0119, 8.4170]).addTo(map);
   
