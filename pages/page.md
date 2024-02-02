@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
-text to show if update has occured 19
+text to show if update has occured 20
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -27,7 +27,7 @@ text to show if update has occured 19
 
   {% for post in site.posts %}
 	{% if post.latitude and post.longitude %}
-	var marker = L.marker([{{ post.longitude}}, {{ 0}}]).addTo(map);
+	var marker = L.marker([{{ post.longitude}}, {{ post.latitude}}]).addTo(map);
 	  marker.bindPopup("Location: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> {{ post.title }} {{post.longitude}} </a>");
 	{% endif %}
 	{% endfor %}
