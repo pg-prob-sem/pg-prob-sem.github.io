@@ -25,6 +25,8 @@ text to show if update has occured 10
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);   
 
+var marker = L.marker([{{ 20 }}, {{ 0}}]).addTo(map);
+
   {% for post in site.posts %}
 	var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
 	{% endfor %}
