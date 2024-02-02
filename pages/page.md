@@ -27,7 +27,7 @@ text to show if update has occured 4
 
   // Iterate through pages and add markers
    
-  {% for post in posts %}
+  {% for post in site.tags.previous limit:1000 %}
     {% if post.latitude and post.longitude %}
       var marker = L.marker([{{ post.latitude }}, {{ post.longitude }}]).addTo(map);
     {% endif %}
