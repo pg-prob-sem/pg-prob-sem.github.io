@@ -68,6 +68,11 @@ We pride ourselves on being an international seminar series. Below is a map show
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
+<!--
+
+
+  
+
   var marker = L.marker([45.7814, 4.8671]).addTo(map);
   
   marker.bindPopup("Institut Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> Bas Lodewijks </a>");
@@ -113,6 +118,8 @@ var marker = L.marker([52.5126, 13.3963]).addTo(map);
 
   marker.bindPopup("Universidad Nacional Autónoma de México (UNAM): <a href='https://pg-prob-sem.github.io/category/Alejandro/'> Alejandro Hernandez
 Wences </a>");
+
+  -->
 
                    
   <!--
