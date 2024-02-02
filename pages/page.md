@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
-text to show if update has occured 10
+text to show if update has occured 11
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -24,8 +24,6 @@ text to show if update has occured 10
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);   
-
-var marker = L.marker([{{ 20 }}, {{ 0}}]).addTo(map);
 
   {% for post in site.posts %}
 	var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
