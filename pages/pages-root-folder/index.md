@@ -58,6 +58,11 @@ We pride ourselves on being an international seminar series. Below is a map show
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 
 <div id="map" style="height: 400px;"></div>
 
@@ -68,12 +73,17 @@ We pride ourselves on being an international seminar series. Below is a map show
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
-{% for post in site.posts %}
+var markers = L.markerClusterGroup();
+
+  {% for post in site.posts %}
 	{% if post.latitude and post.longitude %}
-	var marker = L.marker([{{ post.latitude}}, {{ post.longitude}}]).addTo(map);
+	var marker = L.marker([{{ post.latitude}}, {{ post.longitude}}]);
 	  marker.bindPopup("{{ post.uni}}: <a href='{{ site.url }}{{ site.baseurl }}{{ post.url }}'> {{ post.speaker}} </a>");
+	  markers.addLayer(marker);
 	{% endif %}
 	{% endfor %}
 
-</script>
+map.addLayer(markers);
+	
+<\script>
 
