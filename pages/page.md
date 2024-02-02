@@ -27,7 +27,7 @@ text to show if update has occured 16
 
   {% for post in site.posts %}
 	{% if page.latitude and page.longitude %}
-	var marker = L.marker([{{ 0}}, {{ post.latitude }}]).addTo(map);
+	var marker = L.marker([{{ 0}}, {{ 0}}]).addTo(map);
 	  marker.bindPopup("Location: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> {{ post.title }} </a>");
 	{% endif %}
 	{% endfor %}
