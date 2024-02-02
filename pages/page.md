@@ -28,7 +28,7 @@ text to show if update has occured 25
   {% for post in site.posts %}
 	{% if post.latitude and post.longitude %}
 	var marker = L.marker([{{ post.latitude}}, {{ post.longitude}}]).addTo(map);
-	  marker.bindPopup("{{ post.uni}}:");
+	  marker.bindPopup("{{ post.uni}}: {{ site.url }}{{ site.baseurl }}{{ post.url }}");
 	{% endif %}
 	{% endfor %}
    
