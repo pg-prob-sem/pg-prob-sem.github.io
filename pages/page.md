@@ -27,7 +27,7 @@ text to show if update has occured 13
 
   {% for post in site.posts %}
 	var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
-	  marker.bindPopup("Institut Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> post.title </a>");
+	  marker.bindPopup("Institut Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> {{ post.title }} </a>");
 	{% endfor %}
    
 </script>
