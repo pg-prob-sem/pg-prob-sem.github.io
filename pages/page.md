@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
-text to show if update has occured 4
+text to show if update has occured 5
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -27,7 +27,7 @@ text to show if update has occured 4
 
   // Iterate through pages and add markers
    
-  {% for post in site.tags.previous limit:1000 %}
+  {% for post in site.posts limit:1000 %}
     {% if post.latitude and post.longitude %}
       var marker = L.marker([{{ post.latitude }}, {{ post.longitude }}]).addTo(map);
     {% endif %}
