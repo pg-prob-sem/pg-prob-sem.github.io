@@ -29,7 +29,7 @@ widget3:
   title: "TBA"
   url: 'https://pg-prob-sem.github.io/category/Andjela/'
   image: placeholder.jpg
-  text: 'Andjela Saekovic'
+  text: 'Andjela Sarkovic'
 
    
 #
