@@ -64,14 +64,15 @@ We pride ourselves on being an international seminar series. Below is a map show
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 
+
 <div id="map" style="height: 400px;"></div>
 
 <script>
-  var map = L.map('map').setView([40,0], 2);
+  var map = L.map('map').setView([40, 0], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
+  }).addTo(map);   
 
 var markers = L.markerClusterGroup();
 
@@ -84,6 +85,6 @@ var markers = L.markerClusterGroup();
 	{% endfor %}
 
 map.addLayer(markers);
-	
-<\script>
+   
+</script>
 
