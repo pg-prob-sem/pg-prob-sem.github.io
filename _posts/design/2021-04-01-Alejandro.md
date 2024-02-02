@@ -4,12 +4,16 @@ subheadline: April 24th 2024
 title:  "Alejandro Hernandez Wences: TBA"
 teaser: " "
 meta_teaser: "  "
+speaker: "Alejandro Hernandez Wences"
+uni: "Universidad Nacional Autónoma de México (UNAM)"
 breadcrumb: true 
 categories:
     - category 
 tags:
     - tag 
     - upcoming
+longitude: -99.1876
+latitude: 19.3328
 image:
     title: placeholder.jpg 
     caption: Alejandro Hernandez Wences
