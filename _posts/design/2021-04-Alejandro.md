@@ -1,0 +1,48 @@
+---
+layout: page
+subheadline: Put the date of the talk here -  Month day year
+title:  "Speaker name: talk title (or TBA if not known yet)"
+teaser: " Give a quick two sentence summary of the talk "
+meta_teaser: " identical to teaser "
+breadcrumb: true <- don't change this
+categories:
+    - category <- pick a category for the talk i.e. math finance or math bio ...
+tags:
+    - tag <- add some labels
+    - upcoming
+image:
+    title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
+    caption: Use the speakers name as a caption
+    caption_url: https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez
+header:
+   image_fullwidth  : "header_unsplash_12.jpg"
+author: mo
+---
+
+# Instructions:
+
+This is a run through of how to edit the website in order to add a speaker including a design template. Please do not delete this file or edit over it, instead create a copy and edit that.
+
+Steps:
+
+ 1. edit the name of the file, if you would like the speaker file to appear within the archive put a date in the past, if not, put a date in the future, followed by the name of the speaker.
+    
+ 2. edit the front matter (the above bit between the dashes) - some instructions are within the front matter to help you. For the tags, if the talk is in the future please include upcoming, else include previous. This ensures that it is put in the correct section of the archive. Pay attention to the category choice because the link for the speakers webpage will be https://pg-prob-sem.github.io/category/name/ where category is from the front matter and the name is from the filename that you set up in step 1.
+    
+ 3. edit the content of the post. This is below these instructions. You need to add an abstract and a bio. You also need to change category in "Other category talks" to match the category you picked in the front matter. Change also the "category" to the chosen category in the front matter. If this matches other talks they'll appear here.
+
+ 4. Edit the home page. If you would like it to appear on the homepage, change the widgets so that one of them matches your new speaker. You also need to update the map with a little marker to show the university/institute of the speaker.
+
+ 5. You should be all good to go!
+
+
+
+## Abstract
+[Insert abstract here]
+
+## About [Insert Speaker Name]
+[Insert a short bio]
+
+## Other Category talks
+{: .t60 }
+{% include list-posts category='category' %}
