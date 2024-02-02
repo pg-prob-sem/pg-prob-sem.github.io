@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
-text to show if update has occured 9
+text to show if update has occured 10
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -26,9 +26,8 @@ text to show if update has occured 9
   }).addTo(map);   
 
   {% for post in site.posts %}
-			var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
-			{% assign counter2=counter2 | plus:1 %}
-			{% endfor %}
+	var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
+	{% endfor %}
    
 </script>
 
