@@ -25,9 +25,10 @@ output:
   }).addTo(map);
 
   // Iterate through pages and add markers
-  {% for page in site.pages %}
-    {% if page.latitude and page.longitude %}
-      var marker = L.marker([{{ page.latitude }}, {{ page.longitude }}]).addTo(map);
+   
+  {% for post in paginator.posts %}
+    {% if post.latitude and post.longitude %}
+      var marker = L.marker([{{ post.latitude }}, {{ post.longitude }}]).addTo(map);
     {% endif %}
   {% endfor %}
 </script>
