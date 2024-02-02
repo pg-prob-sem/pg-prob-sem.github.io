@@ -26,8 +26,8 @@ text to show if update has occured 14
   }).addTo(map);   
 
   {% for post in site.posts %}
-	var marker = L.marker([{{ 0 }}, {{ 0}}]).addTo(map);
-	  marker.bindPopup("Institut Camille Jordan: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> {{ post.title }} </a>");
+	var marker = L.marker([{{ post.longitude }}, {{ 0}}]).addTo(map);
+	  marker.bindPopup("Location: <a href='https://pg-prob-sem.github.io/random_graphs/bas/'> {{ post.title }} </a>");
 	{% endfor %}
    
 </script>
