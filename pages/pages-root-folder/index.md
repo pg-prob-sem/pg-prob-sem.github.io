@@ -68,6 +68,15 @@ We pride ourselves on being an international seminar series. Below is a map show
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
+{% for post in site.posts %}
+	{% if post.latitude and post.longitude %}
+	var marker = L.marker([{{ post.latitude}}, {{ post.longitude}}]).addTo(map);
+	  marker.bindPopup("{{ post.uni}}: <a href='{{ site.url }}{{ site.baseurl }}{{ post.url }}'> {{ post.speaker}} </a>");
+	{% endif %}
+	{% endfor %}
+
+  
+
 <!--
 
 
