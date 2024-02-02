@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
-text to show if update has occured
+text to show if update has occured 2
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
