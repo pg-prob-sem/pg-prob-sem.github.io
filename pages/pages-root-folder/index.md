@@ -111,9 +111,9 @@ var marker = L.marker([52.5126, 13.3963]).addTo(map);
 
   <!--
     this is a place holder for pins that we don't want to appear yet
-var marker = L.marker([52.5126, 23.3963]).addTo(map);
-  
-  marker.bindPopup("Universidad Nacional Autónoma de México (UNAM): <a href='https://pg-prob-sem.github.io/category/Jonas/'> Alejandro Hernandez
+var marker = L.marker([19.3328, -99.1876]).addTo(map);
+
+  marker.bindPopup("Universidad Nacional Autónoma de México (UNAM): <a href='https://pg-prob-sem.github.io/category/Alejandro/'> Alejandro Hernandez
 Wences </a>");
 
   -->  
