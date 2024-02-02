@@ -109,11 +109,14 @@ var marker = L.marker([52.5126, 13.3963]).addTo(map);
   
   marker.bindPopup("Weierstraß Institute (WIAS): <a href='https://pg-prob-sem.github.io/category/Jonas/'> Jonas Köppl </a>");
 
-  <!--
-    this is a place holder for pins that we don't want to appear yet
-var marker = L.marker([19.3328, -99.1876]).addTo(map);
+  var marker = L.marker([19.3328, -99.1876]).addTo(map);
 
   marker.bindPopup("Universidad Nacional Autónoma de México (UNAM): <a href='https://pg-prob-sem.github.io/category/Alejandro/'> Alejandro Hernandez
 Wences </a>");
+
+                   
+  <!--
+    this is a place holder for pins that we don't want to appear yet
+
 
   -->  
