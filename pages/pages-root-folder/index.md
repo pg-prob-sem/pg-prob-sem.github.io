@@ -19,7 +19,7 @@ widget1:
 
 widget2:
   month: "February"
-  title: "Dynamical Gibbs variational principles and applications "
+  title: "Dynamical Gibbs variational principles and applications"
   url: 'https://pg-prob-sem.github.io/category/Jonas/'
   image: jonas.jpg
   text: 'Jonas Köppl'
