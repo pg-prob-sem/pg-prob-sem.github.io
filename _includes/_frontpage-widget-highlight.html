@@ -34,11 +34,24 @@
   }
 </style>
 
-
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the current date
+    var now = new Date();
+    
+    // Get the month name
+    var monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    var currentMonth = monthNames[now.getMonth()];
+    document.getElementById('currentMonth').textContent = currentMonth;
+  });
+</script>
 
 
 <div class="medium-4 columns frontpage-widget-highlight">
-	<h2 class="font-size-h2 t10">{{ "feb" }}</h2>
+	<h2 class="font-size-h2 t10">{{ id="currentMonth" }}</h2>
 	{% if include.widget.video %}
 		{{ include.widget.video }}
 	{% elsif widget_url == empty %}
