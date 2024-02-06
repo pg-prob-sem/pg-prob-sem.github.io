@@ -12,12 +12,12 @@ output:
     preserve_yaml: TRUE
 ---
 
-edited to add 6
+edited to add 7
 
 <script>
   var now = new Date();
+  var datetime = now.toLocaleString();
   document.write(date);
-   
 </script>
 
 
