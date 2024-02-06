@@ -16,10 +16,13 @@ edited to add 4
 
 <script>
   var now = new Date();
-  var date = now.toLocaleDateString(); // Get only the date part
+  var date = now.getUTCMonth() + 1
   document.write(date);
 
-  
+  if (date === "06/02/24") {
+    document.write("true");
+  }
+   
 </script>
 
 
