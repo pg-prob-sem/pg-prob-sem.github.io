@@ -12,16 +12,14 @@ output:
     preserve_yaml: TRUE
 ---
 
-edited to add 2
+edited to add 4
 
 <script>
   var now = new Date();
   var date = now.toLocaleDateString(); // Get only the date part
   document.write(date);
 
-  if (date === "06/02/24") {
-    document.write("true");
-  }
+  
 </script>
 
 
