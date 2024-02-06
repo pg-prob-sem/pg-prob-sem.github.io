@@ -17,9 +17,9 @@ edited to add 10
 <script>
   var now = new Date();
   var datetime = now.toLocaleString();
-  var date = now.getUTCMonth()
+  // var date = now.getUTCMonth()
   document.write(datetime \n);
-  document.write("month: " + date \n)
+  // document.write("month: " + date \n)
 </script>
 
 
