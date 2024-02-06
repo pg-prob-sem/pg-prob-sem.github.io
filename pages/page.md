@@ -12,7 +12,17 @@ output:
     preserve_yaml: TRUE
 ---
 
-edited to add 15
+edited to add 16
+
+
+<script>
+  var now = new Date();
+  var monthName = now.toLocaleDateString('en-US', { month: 'long' });
+
+  document.write("Current month is: " + monthName);
+</script>
+
+
 
 <script>
   var now = new Date();
