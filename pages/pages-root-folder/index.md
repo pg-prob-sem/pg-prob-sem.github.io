@@ -55,22 +55,24 @@ homepage: true
 ---
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get the current date
-    var now = new Date();
-    
-    // Get the month name
-    var monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    var currentMonth = monthNames[now.getMonth()];
-    var previousMonth = monthNames[(now.getMonth()-1+12)%12];
-    var nextMonth = monthNames[(now.getMonth()+1)%12];
+{% comment %}
+*
+* First check, if widget is empty or not by checking if there is a title
+*
+{% endcomment %}
+<div class="row t60">
+	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
+		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% endif %}
 
-    // Update the front matter with the current month
-    document.querySelector('.teaser').textContent = "abc";
-  });
+	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
+		{% include _frontpage-widget-highlight.html widget=page.widget2 %}
+	{% endif %}
+
+	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
+		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% endif %}
+</div><!-- /.row -->
 </script>
 
 
