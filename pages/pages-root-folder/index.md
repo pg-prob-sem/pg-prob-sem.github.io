@@ -18,7 +18,7 @@ widget1:
   text: 'Jiaming Chen'
 
 widget2:
-  month: "Feb"
+  month: "Febr"
   title: "Dynamical Gibbs variational principles and applications"
   url: 'https://pg-prob-sem.github.io/statistical_mechanics/Jonas/'
   image: jonas.jpg
@@ -64,13 +64,13 @@ homepage: true
     "July", "August", "September", "October", "November", "December"
   ];
   var currentMonth = monthNames[now.getMonth()];
-  var previousMonth = monthNames[(now.getMonth()-1)%12];
+  var previousMonth = monthNames[(now.getMonth()-1+12)%12];
   var nextMonth = monthNames[(now.getMonth()+1)%12];
 
   // Update the front matter with the current month
-  document.querySelector('.widget1 .month').content = previousMonth;
-  document.querySelector('.widget2 .month').content = currentMonth;
-  document.querySelector('.widget3 .month').content = nextMonth;
+  document.querySelector('.widget1 .month').textContent = previousMonth;
+  document.querySelector('.widget2 .month').textContent = currentMonth;
+  document.querySelector('.widget3 .month').textContent = nextMonth;
 </script>
 
 
