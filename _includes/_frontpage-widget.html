@@ -68,7 +68,7 @@
 			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
 		</a>
 	{% endif %}
-	<h2 class="font-size-h3 t10">{{ currentMonth }}</h2>
+	<h2 class="font-size-h3 t10">{{ include.currentMonth.text }}</h2>
 
 	{% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}
 	<div class="button-container">
