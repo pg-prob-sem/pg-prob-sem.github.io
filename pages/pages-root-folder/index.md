@@ -54,6 +54,27 @@ permalink: /index.html
 homepage: true
 ---
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get the current date
+    var now = new Date();
+    
+    // Get the month name
+    var monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    var currentMonth = monthNames[now.getMonth()];
+    var previousMonth = monthNames[(now.getMonth()-1+12)%12];
+    var nextMonth = monthNames[(now.getMonth()+1)%12];
+
+    // Update the front matter with the current month
+    document.querySelector('.teaser').textContent = "abc";
+  });
+</script>
+
+
+
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
