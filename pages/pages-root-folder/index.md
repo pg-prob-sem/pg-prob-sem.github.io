@@ -18,7 +18,7 @@ widget1:
   text: 'Jiaming Chen'
 
 widget2:
-  month: "Feb"
+  month: "February"
   title: "Dynamical Gibbs variational principles and applications"
   url: 'https://pg-prob-sem.github.io/statistical_mechanics/Jonas/'
   image: jonas.jpg
@@ -53,29 +53,6 @@ permalink: /index.html
 #
 homepage: true
 ---
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get the current date
-    var now = new Date();
-    
-    // Get the month name
-    var monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    var currentMonth = monthNames[now.getMonth()];
-    var previousMonth = monthNames[(now.getMonth()-1+12)%12];
-    var nextMonth = monthNames[(now.getMonth()+1)%12];
-
-    // Update the front matter with the current month
-    document.querySelector('.widget1 .month').textContent = previousMonth;
-    document.querySelector('.widget2 .month').textContent = currentMonth;
-    document.querySelector('.widget3 .month').textContent = nextMonth;
-  });
-</script>
-
-
 
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
 
