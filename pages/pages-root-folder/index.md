@@ -54,27 +54,22 @@ permalink: /index.html
 homepage: true
 ---
 
+
 <script>
-{% comment %}
-*
-* First check, if widget is empty or not by checking if there is a title
-*
-{% endcomment %}
-<div class="row t60">
-	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
-	{% endif %}
+  document.addEventListener('DOMContentLoaded', function() {
+    var now = new Date();
+    var monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    var month = monthNames[now.getMonth()];
+    var day = now.getDate();
+    var year = now.getFullYear();
 
-	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
-		{% include _frontpage-widget-highlight.html widget=page.widget2 %}
-	{% endif %}
-
-	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
-	{% endif %}
-</div><!-- /.row -->
+    // Update the page title dynamically
+    document.teaser = "Dynamic Title - " + month + " " + day + ", " + year;
+  });
 </script>
-
 
 
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
