@@ -11,10 +11,13 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 ---
+
+edited to add 1
+
 <script>
   var now = new Date();
-  var datetime = now.toLocaleString();
-  document.write(datetime);
+  var date = now.toLocaleDateString(); // Get only the date part
+  document.write(date);
 </script>
 
 
