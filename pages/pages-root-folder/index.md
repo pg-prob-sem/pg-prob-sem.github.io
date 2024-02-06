@@ -54,6 +54,23 @@ permalink: /index.html
 homepage: true
 ---
 
+<script>
+  // Get the current date
+  var now = new Date();
+  
+  // Get the month name
+  var monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  var currentMonth = monthNames[now.getMonth()];
+
+  // Update the front matter with the current month
+  document.querySelector('.widget2 .month').content = currentMonth;
+</script>
+
+
+
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
