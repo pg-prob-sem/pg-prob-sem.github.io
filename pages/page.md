@@ -22,5 +22,30 @@ edited to add 14
 </script>
 
 
+<script>
+  function getLastWednesdayOfMonth(year, month) {
+    var lastDay = new Date(year, month + 1, 0); // Get the last day of the next month
+    var dayOfWeek = lastDay.getDay(); // Get the day of the week for the last day
+
+    // Calculate the difference between the last day's day of the week and Wednesday
+    var difference = (dayOfWeek - 3 + 7) % 7;
+
+    // Subtract the difference from the last day to get the last Wednesday
+    lastDay.setDate(lastDay.getDate() - difference);
+
+    return lastDay;
+  }
+
+  // Example: Get the last Wednesday of the current month
+  var now = new Date();
+  var currentYear = now.getFullYear();
+  var currentMonth = now.getMonth();
+
+  var lastWednesday = getLastWednesdayOfMonth(currentYear, currentMonth);
+
+  document.write("Last Wednesday of the month: " + lastWednesday.toDateString());
+</script>
+
+
 
 
