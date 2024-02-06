@@ -7,7 +7,7 @@
 layout: frontpage
 header:
   image_fullwidth: header_unsplash_12.jpg
-teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
+teaser: "Dynamic Title - {{ site.time | date: '%B %d, %Y' }}"
 
 
 widget1:
@@ -54,22 +54,6 @@ permalink: /index.html
 homepage: true
 ---
 
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var now = new Date();
-    var monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    var month = monthNames[now.getMonth()];
-    var day = now.getDate();
-    var year = now.getFullYear();
-
-    // Update the page title dynamically
-    document.teaser = "Dynamic Title - " + month + " " + day + ", " + year;
-  });
-</script>
 
 
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
