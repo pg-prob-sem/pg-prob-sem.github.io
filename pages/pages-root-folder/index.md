@@ -64,9 +64,13 @@ homepage: true
     "July", "August", "September", "October", "November", "December"
   ];
   var currentMonth = monthNames[now.getMonth()];
+  var previousMonth = monthNames[(now.getMonth()-1)%12];
+  var nextMonth = monthNames[(now.getMonth()+1)%12];
 
   // Update the front matter with the current month
+  document.querySelector('.widget1 .month').content = previousMonth;
   document.querySelector('.widget2 .month').content = currentMonth;
+  document.querySelector('.widget3 .month').content = nextMonth;
 </script>
 
 
