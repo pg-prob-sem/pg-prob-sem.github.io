@@ -12,14 +12,13 @@ output:
     preserve_yaml: TRUE
 ---
 
-edited to add 12
+edited to add 13
 
 <script>
   var now = new Date();
   var datetime = now.toLocaleString();
-  // var date = now.getUTCMonth()
+  var month = now.getUTCMonth() + 1;
   document.write(datetime);
-  // document.write("month: " + date \n)
 </script>
 
 
