@@ -18,7 +18,7 @@ widget1:
   text: 'Jiaming Chen'
 
 widget2:
-  month: "February"
+  month: "Feb"
   title: "Dynamical Gibbs variational principles and applications"
   url: 'https://pg-prob-sem.github.io/statistical_mechanics/Jonas/'
   image: jonas.jpg
