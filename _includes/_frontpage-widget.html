@@ -1,3 +1,4 @@
+User
 {% comment %}
 *
 *   First the include captures the url and image in a
@@ -25,13 +26,11 @@
     font-size: 24px;
     color: #333;
   }
-
-  .frontpage-widget h2.font-size-h2.t10 {
+.frontpage-widget h2.font-size-h2.t10 {
     font-size: 36px;
     color: rgb(24,67,202);
   }
-
-  .button-container {
+.button-container {
     margin-top: auto; /* Push the button to the bottom */
   }
 
@@ -40,38 +39,26 @@
   }
 </style>
 
-<div class="medium-4 columns frontpage-widget">
-  <h2 class="font-size-h2 t10" id="currentMonth"></h2>
-  {% if include.widget.video %}
-    {{ include.widget.video }}
-  {% elsif widget_url == empty %}
-    {% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
-  {% else %}
-    <a href="{{ widget_url }}">
-      {% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
-    </a>
-  {% endif %}
-  <h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
 
-  {% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}
-  <div class="button-container">
-    {% if widget_url != empty %}<a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a>{% endif %}
-  </div>
+
+
+
+<div class="medium-4 columns frontpage-widget">
+	<h2 class="font-size-h2 t10">{{ include.widget.month }}</h2>
+	{% if include.widget.video %}
+		{{ include.widget.video }}
+	{% elsif widget_url == empty %}
+		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+	{% else %}
+		<a href="{{ widget_url }}">
+			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		</a>
+	{% endif %}
+	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
+
+	{% if include.widget.text != empty %}<p>{{ include.widget.text }}</p>{% endif %}
+	<div class="button-container">
+        {% if widget_url != empty %}<a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a>{% endif %}
+      </div>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Get the current date
-    var now = new Date();
-    
-    // Get the month name
-    var monthNames = [
-      "January", "February", "March", "April", "May", "June",
-      "July", "August", "September", "October", "November", "December"
-    ];
-    var currentMonth = monthNames[now.getMonth()];
-
-    // Update the month in the widget
-    document.getElementById('currentMonth').textContent = currentMonth;
-  });
-</script>
