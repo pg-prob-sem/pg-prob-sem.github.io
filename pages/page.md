@@ -12,16 +12,11 @@ output:
     preserve_yaml: TRUE
 ---
 
-edited to add 5
+edited to add 6
 
 <script>
   var now = new Date();
-  var date = now.getUTCMonth() + 1
   document.write(date);
-
-  if (date === "06/02/24") {
-    document.write("true");
-  }
    
 </script>
 
