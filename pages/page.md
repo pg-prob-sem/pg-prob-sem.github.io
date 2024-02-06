@@ -27,7 +27,7 @@ text to show if update has occured 32
 <script>
   var now = new Date();
   var datetime = now.toLocaleString();
-  <p> {datetime} </p>
+  <p> datetime {datetime} </p>
 </script>
 
 
