@@ -25,6 +25,14 @@ text to show if update has occured 32
 <div id="map" style="height: 400px;"></div>
 
 <script>
+  var now = new Date();
+  var datetime = now.toLocaleString();
+  datetime
+</script>
+
+
+
+<script>
   var map = L.map('map').setView([40, 0], 2);
 
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
