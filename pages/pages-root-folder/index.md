@@ -54,39 +54,41 @@ permalink: /index.html
 homepage: true
 ---
 
-#{% assign today = site.time | date: '%s' %}
-#{% assign posts_future = site.posts | where_exp: "post", "post.date | date: '%s' > today" | sort: 'date' %}
-#{% assign posts_past = site.posts | where_exp: "post", "post.date | date: '%s' < today" | sort: 'date', 'last' %}
-#{% assign next_talk = posts_future | first %}
-#{% assign upcoming_talks = posts_future | offset: 1 %}
-#{% assign previous_talk = posts_past | last %}
-#
-#<div class="talks">
-#  <div class="next-talk">
-#    <h2>Next Talk</h2>
-#    <p><strong>Title:</strong> {{ next_talk.title }}</p>
-#    <p><strong>Date:</strong> {{ next_talk.date | date: "%B %d, %Y" }}</p>
-#    <p><a href="{{ site.baseurl }}{{ next_talk.url }}">Read more</a></p>
-#  </div>
-#  
-#  <div class="previous-talk">
-#    <h2>Previous Talk</h2>
-#    <p><strong>Title:</strong> {{ previous_talk.title }}</p>
-#    <p><strong>Date:</strong> {{ previous_talk.date | date: "%B %d, %Y" }}</p>
-#    <p><a href="{{ site.baseurl }}{{ previous_talk.url }}">Read more</a></p>
-#  </div>
-#
-#  <div class="upcoming-talks">
-#    <h2>Upcoming Talks</h2>
-#    {% for post in upcoming_talks %}
-#      <div class="talk">
-#        <p><strong>Title:</strong> {{ post.title }}</p>
-#        <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
-#        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
-#      </div>
-#    {% endfor %}
-#  </div>
-#</div>
+{% comment %}
+{% assign today = site.time | date: '%s' %}
+{% assign posts_future = site.posts | where_exp: "post", "post.date | date: '%s' > today" | sort: 'date' %}
+{% assign posts_past = site.posts | where_exp: "post", "post.date | date: '%s' < today" | sort: 'date', 'last' %}
+{% assign next_talk = posts_future | first %}
+{% assign upcoming_talks = posts_future | offset: 1 %}
+{% assign previous_talk = posts_past | last %}
+
+<div class="talks">
+  <div class="next-talk">
+    <h2>Next Talk</h2>
+    <p><strong>Title:</strong> {{ next_talk.title }}</p>
+    <p><strong>Date:</strong> {{ next_talk.date | date: "%B %d, %Y" }}</p>
+    <p><a href="{{ site.baseurl }}{{ next_talk.url }}">Read more</a></p>
+  </div>
+  
+  <div class="previous-talk">
+    <h2>Previous Talk</h2>
+    <p><strong>Title:</strong> {{ previous_talk.title }}</p>
+    <p><strong>Date:</strong> {{ previous_talk.date | date: "%B %d, %Y" }}</p>
+    <p><a href="{{ site.baseurl }}{{ previous_talk.url }}">Read more</a></p>
+  </div>
+
+  <div class="upcoming-talks">
+    <h2>Upcoming Talks</h2>
+    {% for post in upcoming_talks %}
+      <div class="talk">
+        <p><strong>Title:</strong> {{ post.title }}</p>
+        <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endcomment %}
 
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
 
