@@ -10,26 +10,26 @@ header:
 teaser: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 
 
-# widget1:
-#  month: "January"
-#  title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
-#  url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
-#  image: jiaming.jpg
-#  text: 'Jiaming Chen'
-#
-# widget2:
-#  month: "February"
-#  title: "Dynamical Gibbs variational principles and applications"
-#  url: 'https://pg-prob-sem.github.io/statistical_mechanics/Jonas/'
-#  image: jonas.jpg
-#  text: 'Jonas Köppl'
-#
-# widget3:
-#  month: "March"
-#  title: "TBA"
-#  url: 'https://pg-prob-sem.github.io/category/Andjela/'
-#  image: placeholder.jpg
-#  text: 'Andjela Sarkovic'
+widget1:
+  month: "January"
+  title: "New stochastic Fubini theorem of measure-valued processes via stochastic integration"
+  url: 'https://pg-prob-sem.github.io/stochastic_analysis/Jiaming/'
+  image: jiaming.jpg
+  text: 'Jiaming Chen'
+
+widget2:
+  month: "February"
+  title: "Dynamical Gibbs variational principles and applications"
+  url: 'https://pg-prob-sem.github.io/statistical_mechanics/Jonas/'
+  image: jonas.jpg
+  text: 'Jonas Köppl'
+
+widget3:
+  month: "March"
+  title: "TBA"
+  url: 'https://pg-prob-sem.github.io/category/Andjela/'
+  image: placeholder.jpg
+  text: 'Andjela Sarkovic'
 
    
 #
@@ -54,39 +54,39 @@ permalink: /index.html
 homepage: true
 ---
 
-{% assign today = site.time | date: '%s' %}
-{% assign posts_future = site.posts | where_exp: "post", "post.date | date: '%s' > today" | sort: 'date' %}
-{% assign posts_past = site.posts | where_exp: "post", "post.date | date: '%s' < today" | sort: 'date', 'last' %}
-{% assign next_talk = posts_future | first %}
-{% assign upcoming_talks = posts_future | offset: 1 %}
-{% assign previous_talk = posts_past | last %}
-
-<div class="talks">
-  <div class="next-talk">
-    <h2>Next Talk</h2>
-    <p><strong>Title:</strong> {{ next_talk.title }}</p>
-    <p><strong>Date:</strong> {{ next_talk.date | date: "%B %d, %Y" }}</p>
-    <p><a href="{{ site.baseurl }}{{ next_talk.url }}">Read more</a></p>
-  </div>
-  
-  <div class="previous-talk">
-    <h2>Previous Talk</h2>
-    <p><strong>Title:</strong> {{ previous_talk.title }}</p>
-    <p><strong>Date:</strong> {{ previous_talk.date | date: "%B %d, %Y" }}</p>
-    <p><a href="{{ site.baseurl }}{{ previous_talk.url }}">Read more</a></p>
-  </div>
-
-  <div class="upcoming-talks">
-    <h2>Upcoming Talks</h2>
-    {% for post in upcoming_talks %}
-      <div class="talk">
-        <p><strong>Title:</strong> {{ post.title }}</p>
-        <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
-        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+#{% assign today = site.time | date: '%s' %}
+#{% assign posts_future = site.posts | where_exp: "post", "post.date | date: '%s' > today" | sort: 'date' %}
+#{% assign posts_past = site.posts | where_exp: "post", "post.date | date: '%s' < today" | sort: 'date', 'last' %}
+#{% assign next_talk = posts_future | first %}
+#{% assign upcoming_talks = posts_future | offset: 1 %}
+#{% assign previous_talk = posts_past | last %}
+#
+#<div class="talks">
+#  <div class="next-talk">
+#    <h2>Next Talk</h2>
+#    <p><strong>Title:</strong> {{ next_talk.title }}</p>
+#    <p><strong>Date:</strong> {{ next_talk.date | date: "%B %d, %Y" }}</p>
+#    <p><a href="{{ site.baseurl }}{{ next_talk.url }}">Read more</a></p>
+#  </div>
+#  
+#  <div class="previous-talk">
+#    <h2>Previous Talk</h2>
+#    <p><strong>Title:</strong> {{ previous_talk.title }}</p>
+#    <p><strong>Date:</strong> {{ previous_talk.date | date: "%B %d, %Y" }}</p>
+#    <p><a href="{{ site.baseurl }}{{ previous_talk.url }}">Read more</a></p>
+#  </div>
+#
+#  <div class="upcoming-talks">
+#    <h2>Upcoming Talks</h2>
+#    {% for post in upcoming_talks %}
+#      <div class="talk">
+#        <p><strong>Title:</strong> {{ post.title }}</p>
+#        <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+#        <p><a href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+#      </div>
+#    {% endfor %}
+#  </div>
+#</div>
 
 We pride ourselves on being an international seminar series. Below is a map showing all the universities and institutes that our speakers are from. 
 
