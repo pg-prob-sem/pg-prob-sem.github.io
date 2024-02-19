@@ -113,7 +113,7 @@ We pride ourselves on being an international seminar series. Below is a map show
 var markers = L.markerClusterGroup();
 
   {% for post in site.posts %}
-	{% if post.tags contains 'previous' and post.latitude and post.longitude %}
+	{% if post.latitude and post.longitude %}
 	var marker = L.marker([{{ post.latitude}}, {{ post.longitude}}]);
 	  marker.bindPopup("{{ post.uni}}: <a href='{{ site.url }}{{ site.baseurl }}{{ post.url }}'> {{ post.speaker}} </a>");
 	  markers.addLayer(marker);
