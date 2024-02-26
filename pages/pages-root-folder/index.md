@@ -26,8 +26,8 @@ widget2:
 
 widget3:
   month: "March"
-  title: "TBA"
-  url: 'https://pg-prob-sem.github.io/category/Andjela/'
+  title: "Cutoff for random walk on random graphs with a community structure"
+  url: 'https://pg-prob-sem.github.io/random_graphs/Andjela/'
   image: placeholder.jpg
   text: 'Andjela Sarkovic'
 
