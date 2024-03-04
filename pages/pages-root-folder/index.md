@@ -11,15 +11,15 @@ homepage: true
 
 {% assign today = site.time | date: '%s' %}
 
-{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time" %}
+{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time" | sort: "date" %}
 {% assign posts_future_published = posts_future | where: "tags", "published" %}
 
-{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time" | sort: "date", "last" %}
 {% assign posts_past_published = posts_past | where: "tags", "published" %}
 
 {% assign next_talk = posts_future_published[0] %}
 {% assign upcoming_talk = posts_future_published[1] %}
-{% assign previous_talk = posts_past_published | first %}
+{% assign previous_talk = posts_past_published | last %}
 
 <div class="row">
 	{% include _talk_widget.html talk=previous_talk %}
