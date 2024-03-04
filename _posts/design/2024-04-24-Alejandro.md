@@ -1,7 +1,7 @@
 ---
 layout: page
 subheadline: April 24th 2024
-title:  "Alejandro Hernandez Wences: Lamperti Transforms of Self-Similar Measure-Valued Processes and Simple Coalescents"
+title:  "Lamperti Transforms of Self-Similar Measure-Valued Processes and Simple Coalescents"
 teaser: "In this presentation, Alejandro will share his collaborative work with Arno Siri-Jégousse in which they derived a Lamperti transform for self-similar processes that take values in normed vector spaces. "
 meta_teaser: "In this presentation, Alejandro will share his collaborative work with Arno Siri-Jégousse in which they derived a Lamperti transform for self-similar processes that take values in normed vector spaces.  "
 speaker: "Alejandro Hernandez Wences"
@@ -13,7 +13,7 @@ tags:
     - random_processes 
     - coalescents
     - lamperti_transforms
-    - upcoming
+    - published
 longitude: -99.1876
 latitude: 19.3328
 image:

@@ -98,9 +98,9 @@ $button-disabled-cursor: $cursor-default-value !default;
   // these can be turned off by setting $padding:false
   @if $padding {
     padding-top: $padding;
-    padding-#{$opposite-direction}: $padding * 2;
-    padding-bottom: $padding + rem-calc(1);
-    padding-#{$default-float}: $padding * 2;
+    padding-#{$opposite-direction}: calc(#{$padding} * 2);
+    padding-bottom: calc(#{$padding} + rem-calc(1));
+    padding-#{$default-float}: calc(#{$padding} * 2);
 
     // We control the font-size based on mixin input.
     @if      $padding == $button-med { font-size: $button-font-med; }

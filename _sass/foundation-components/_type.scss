@@ -125,8 +125,7 @@ $microformat-abbr-font-weight: $font-weight-bold !default;
 $microformat-abbr-font-decoration: none !default;
 
 // Text alignment class names
-$align-class-names:
-  small-only,
+$align-class-names: small-only,
   small,
   medium-only,
   medium,
@@ -138,8 +137,7 @@ $align-class-names:
   xxlarge;
 
 // Text alignment breakpoints
-$align-class-breakpoints:
-  $small-only,
+$align-class-breakpoints: $small-only,
   $small-up,
   $medium-only,
   $medium-up,
@@ -151,18 +149,40 @@ $align-class-breakpoints:
   $xxlarge-up;
 
 // Generates text align and justify classes
-@mixin align-classes{
-  .text-left    { text-align: left !important; }
-  .text-right   { text-align: right !important; }
-  .text-center  { text-align: center !important; }
-  .text-justify { text-align: justify !important; }
+@mixin align-classes {
+  .text-left {
+    text-align: left !important;
+  }
+
+  .text-right {
+    text-align: right !important;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .text-justify {
+    text-align: justify !important;
+  }
 
   @for $i from 1 through length($align-class-names) {
     @media #{(nth($align-class-breakpoints, $i))} {
-      .#{(nth($align-class-names, $i))}-text-left { text-align: left !important; }
-      .#{(nth($align-class-names, $i))}-text-right   { text-align: right !important; }
-      .#{(nth($align-class-names, $i))}-text-center  { text-align: center !important; }
-      .#{(nth($align-class-names, $i))}-text-justify { text-align: justify !important; }
+      .#{(nth($align-class-names, $i))}-text-left {
+        text-align: left !important;
+      }
+
+      .#{(nth($align-class-names, $i))}-text-right {
+        text-align: right !important;
+      }
+
+      .#{(nth($align-class-names, $i))}-text-center {
+        text-align: center !important;
+      }
+
+      .#{(nth($align-class-names, $i))}-text-justify {
+        text-align: justify !important;
+      }
     }
   }
 }
@@ -173,7 +193,7 @@ $align-class-breakpoints:
 
 // These will throw a deprecation warning if used within a media query.
 @mixin lead {
-  font-size: $paragraph-font-size + rem-calc(3.5);
+  font-size: calc(#{$paragraph-font-size} + rem-calc(3.5));
   line-height: 1.6;
 }
 
@@ -184,6 +204,7 @@ $align-class-breakpoints:
   margin-top: $subheader-top-margin;
   margin-bottom: $subheader-bottom-margin;
 }
+
 @include exports("type") {
   @if $include-html-type-classes {
     // Responsive Text alignment
@@ -209,8 +230,8 @@ $align-class-breakpoints:
     blockquote,
     th,
     td {
-      margin:0;
-      padding:0;
+      margin: 0;
+      padding: 0;
     }
 
     /* Default Link Styles */
@@ -222,12 +243,15 @@ $align-class-breakpoints:
       &:hover,
       &:focus {
         color: $anchor-font-color-hover;
-        @if $anchor-text-decoration-hover != $anchor-text-decoration {
-        	text-decoration: $anchor-text-decoration-hover;
+
+        @if $anchor-text-decoration-hover !=$anchor-text-decoration {
+          text-decoration: $anchor-text-decoration-hover;
         }
       }
 
-      img { border:none; }
+      img {
+        border: none;
+      }
     }
 
     /* Default paragraph styles */
@@ -239,7 +263,9 @@ $align-class-breakpoints:
       margin-bottom: $paragraph-margin-bottom;
       text-rendering: $paragraph-text-rendering;
 
-      &.lead { @include lead; }
+      &.lead {
+        @include lead;
+      }
 
       & aside {
         font-size: $paragraph-aside-font-size;
@@ -249,7 +275,12 @@ $align-class-breakpoints:
     }
 
     /* Default header styles */
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: $header-font-family;
       font-weight: $header-font-weight;
       font-style: $header-font-style;
@@ -266,20 +297,39 @@ $align-class-breakpoints:
       }
     }
 
-    h1 { font-size: $h1-font-size - $h1-font-reduction; }
-    h2 { font-size: $h2-font-size - $h2-font-reduction; }
-    h3 { font-size: $h3-font-size - $h3-font-reduction; }
-    h4 { font-size: $h4-font-size - $h4-font-reduction; }
-    h5 { font-size: $h5-font-size - $h5-font-reduction; }
-    h6 { font-size: $h6-font-size - $h6-font-reduction; }
+    h1 {
+      font-size: calc(#{$h1-font-size} - #{$h1-font-reduction});
+    }
 
-    .subheader { @include subheader; }
+    h2 {
+      font-size: calc(#{$h2-font-size} - #{$h2-font-reduction});
+    }
+
+    h3 {
+      font-size: calc(#{$h3-font-size} - #{$h3-font-reduction});
+    }
+
+    h4 {
+      font-size: calc(#{$h4-font-size} - #{$h4-font-reduction});
+    }
+
+    h5 {
+      font-size: calc(#{$h5-font-size} - #{$h5-font-reduction});
+    }
+
+    h6 {
+      font-size: calc(#{$h6-font-size} - #{$h6-font-reduction});
+    }
+
+    .subheader {
+      @include subheader;
+    }
 
     hr {
-      border: $hr-border-style $hr-border-color;
+      border: calc(#{$hr-border-style} #{$hr-border-color});
       border-width: $hr-border-width 0 0;
       clear: both;
-      margin: $hr-margin 0 ($hr-margin - rem-calc($hr-border-width));
+      margin: $hr-margin 0 calc(#{$hr-margin} - rem-calc($hr-border-width));
       height: 0;
     }
 
@@ -325,9 +375,12 @@ $align-class-breakpoints:
 
     ul {
       margin-#{$default-float}: $list-side-margin;
+
       &.no-bullet {
         margin-#{$default-float}: $list-side-margin-no-bullet;
+
         li {
+
           ul,
           ol {
             margin-#{$default-float}: $list-nested-margin;
@@ -341,28 +394,48 @@ $align-class-breakpoints:
     /* Unordered Lists */
     ul {
       li {
+
         ul,
         ol {
           margin-#{$default-float}: $list-nested-margin;
           margin-bottom: 0;
         }
       }
+
       &.square,
       &.circle,
       &.disc {
-        li ul { list-style: inherit; }
+        li ul {
+          list-style: inherit;
+        }
       }
 
-      &.square { list-style-type: square; margin-#{$default-float}: $list-side-margin;}
-      &.circle { list-style-type: circle; margin-#{$default-float}: $list-side-margin;}
-      &.disc { list-style-type: disc; margin-#{$default-float}: $list-side-margin;}
-      &.no-bullet { list-style: none; }
+      &.square {
+        list-style-type: square;
+        margin-#{$default-float}: $list-side-margin;
+      }
+
+      &.circle {
+        list-style-type: circle;
+        margin-#{$default-float}: $list-side-margin;
+      }
+
+      &.disc {
+        list-style-type: disc;
+        margin-#{$default-float}: $list-side-margin;
+      }
+
+      &.no-bullet {
+        list-style: none;
+      }
     }
 
     /* Ordered Lists */
     ol {
       margin-#{$default-float}: $list-ordered-side-margin;
+
       li {
+
         ul,
         ol {
           margin-#{$default-float}: $list-nested-margin;
@@ -377,7 +450,10 @@ $align-class-breakpoints:
         margin-bottom: $definition-list-header-margin-bottom;
         font-weight: $definition-list-header-weight;
       }
-      dd { margin-bottom: $definition-list-margin-bottom; }
+
+      dd {
+        margin-bottom: $definition-list-margin-bottom;
+      }
     }
 
     /* Abbreviations */
@@ -388,8 +464,10 @@ $align-class-breakpoints:
       color: $body-font-color;
       cursor: $cursor-help-value;
     }
+
     abbr {
       text-transform: none;
+
       &[title] {
         border-bottom: $acronym-underline;
       }
@@ -405,6 +483,7 @@ $align-class-breakpoints:
         display: block;
         font-size: $blockquote-cite-font-size;
         color: $blockquote-cite-font-color;
+
         &:before {
           content: "\2014 \0020";
         }
@@ -415,6 +494,7 @@ $align-class-breakpoints:
         }
       }
     }
+
     blockquote,
     blockquote p {
       line-height: $paragraph-line-height;
@@ -432,6 +512,7 @@ $align-class-breakpoints:
         margin: 0;
         display: block;
       }
+
       .fn {
         font-weight: $microformat-fullname-font-weight;
         font-size: $microformat-fullname-font-size;
@@ -439,7 +520,9 @@ $align-class-breakpoints:
     }
 
     .vevent {
-      .summary { font-weight: $microformat-summary-font-weight; }
+      .summary {
+        font-weight: $microformat-summary-font-weight;
+      }
 
       abbr {
         cursor: $cursor-default-value;
@@ -452,42 +535,82 @@ $align-class-breakpoints:
 
 
     @media #{$medium-up} {
-      h1,h2,h3,h4,h5,h6 { line-height: $header-line-height; }
-      h1 { font-size: $h1-font-size; }
-      h2 { font-size: $h2-font-size; }
-      h3 { font-size: $h3-font-size; }
-      h4 { font-size: $h4-font-size; }
-      h5 { font-size: $h5-font-size; }
-      h6 { font-size: $h6-font-size; }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        line-height: $header-line-height;
+      }
+
+      h1 {
+        font-size: $h1-font-size;
+      }
+
+      h2 {
+        font-size: $h2-font-size;
+      }
+
+      h3 {
+        font-size: $h3-font-size;
+      }
+
+      h4 {
+        font-size: $h4-font-size;
+      }
+
+      h5 {
+        font-size: $h5-font-size;
+      }
+
+      h6 {
+        font-size: $h6-font-size;
+      }
     }
 
     // Only include these styles if you want them.
     @if $include-print-styles {
+
       /*
        * Print styles.
        *
        * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
        * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
       */
-      .print-only { display: none !important; }
+      .print-only {
+        display: none !important;
+      }
+
       @media print {
         * {
           background: transparent !important;
-          color: $black !important; /* Black prints faster: h5bp.com/s */
+          color: $black !important;
+          /* Black prints faster: h5bp.com/s */
           box-shadow: none !important;
           text-shadow: none !important;
         }
 
         a,
-        a:visited { text-decoration: underline;}
-        a[href]:after { content: " (" attr(href) ")"; }
+        a:visited {
+          text-decoration: underline;
+        }
 
-        abbr[title]:after { content: " (" attr(title) ")"; }
+        a[href]:after {
+          content: " (" attr(href) ")";
+        }
+
+        abbr[title]:after {
+          content: " (" attr(title) ")";
+        }
 
         // Don't show links for images, or javascript/internal links
         .ir a:after,
         a[href^="javascript:"]:after,
-        a[href^="#"]:after { content: ""; }
+        a[href^="#"]:after {
+          content: "";
+        }
 
         pre,
         blockquote {
@@ -495,14 +618,23 @@ $align-class-breakpoints:
           page-break-inside: avoid;
         }
 
-        thead { display: table-header-group; /* h5bp.com/t */ }
+        thead {
+          display: table-header-group;
+          /* h5bp.com/t */
+        }
 
         tr,
-        img { page-break-inside: avoid; }
+        img {
+          page-break-inside: avoid;
+        }
 
-        img { max-width: 100% !important; }
+        img {
+          max-width: 100% !important;
+        }
 
-        @page { margin: 0.5cm; }
+        @page {
+          margin: 0.5cm;
+        }
 
         p,
         h2,
@@ -512,12 +644,25 @@ $align-class-breakpoints:
         }
 
         h2,
-        h3 { page-break-after: avoid; }
+        h3 {
+          page-break-after: avoid;
+        }
 
-        .hide-on-print { display: none !important; }
-        .print-only { display: block !important; }
-        .hide-for-print { display: none !important; }
-        .show-for-print { display: inherit !important; }
+        .hide-on-print {
+          display: none !important;
+        }
+
+        .print-only {
+          display: block !important;
+        }
+
+        .hide-for-print {
+          display: none !important;
+        }
+
+        .show-for-print {
+          display: inherit !important;
+        }
       }
     }
 

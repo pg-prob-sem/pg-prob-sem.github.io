@@ -175,7 +175,7 @@ $close-reveal-modal-class: "close-reveal-modal" !default;
         $radius:false,
         $top-offset:$reveal-position-top
       );
-      @include reveal-modal-style($padding:$reveal-modal-padding * 1.5);
+      @include reveal-modal-style($padding:calc($reveal-modal-padding * 1.5));
 
       &.radius { @include reveal-modal-style($radius:true); }
       &.round  { @include reveal-modal-style($radius:$reveal-round); }

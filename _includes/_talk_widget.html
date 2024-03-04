@@ -1,0 +1,19 @@
+<!-- _includes/talk_widget.html -->
+{% capture style %}
+{% if include.border == true %}
+border: 6px solid #f5cc11; border-radius: 20px;
+{% endif %}
+{% endcapture %}
+
+<div class="medium-4 columns frontpage-widget" style="{{ style }}">
+    <h2 style="color: #1122ee; margin-top: 5px;">{{ include.talk.date | date: '%B' }}</h2>
+    {% if include.talk.image.title %}
+    <img src="{{ site.url }}/images/{{ include.talk.image.title }}" alt="{{ include.talk.title }}">
+    {% endif %}
+    <h4 style="margin-top: 5px;">{{ include.talk.title }}</h4>
+    <p style="margin-bottom: 0;"><strong>{{ include.talk.speaker }}</strong></p>
+    <p style="margin-left: auto; text-align: right; margin-top: 0;">{{ include.talk.date | date: "%B %d, %Y" }}</p>
+    <div class="button-container">
+        <a class="button tiny radius" href="{{ site.url }}{{ site.baseurl }}{{ include.talk.url }}">More ›</a>
+    </div>
+</div>

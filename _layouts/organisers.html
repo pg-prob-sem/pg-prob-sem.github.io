@@ -3,10 +3,10 @@ layout: default
 format: organisers
 ---
 <div id="header-home">
-    <div class="row">
-        <div class="small-12 columns">
-        </div><!-- /.medium-4.columns -->
-    </div><!-- /.row -->
+	<div class="row">
+		<div class="small-12 columns">
+		</div><!-- /.medium-4.columns -->
+	</div><!-- /.row -->
 </div><!-- /#header-home -->
 
 <div class="row t30">
@@ -37,15 +37,15 @@ format: organisers
 {% endcomment %}
 <div class="row t60">
 	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
-		{% include _organisers-widget.html widget=page.widget1 %}
+	{% include _organisers-widget.html widget=page.widget1 %}
 	{% endif %}
 
 	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
-		{% include _organisers-widget.html widget=page.widget2 %}
+	{% include _organisers-widget.html widget=page.widget2 %}
 	{% endif %}
 
 	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
-		{% include _organisers-widget.html widget=page.widget3 %}
+	{% include _organisers-widget.html widget=page.widget3 %}
 	{% endif %}
 </div><!-- /.row -->
 
@@ -58,5 +58,5 @@ format: organisers
 {% endcomment %}
 
 <div class="row">
-    {{ content }}
+	{{ content }}
 </div><!-- /.row -->
