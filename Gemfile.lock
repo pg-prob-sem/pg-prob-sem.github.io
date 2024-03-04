@@ -4,9 +4,12 @@ GEM
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     asciidoctor (1.5.8)
+    base64 (0.2.0)
+    bigdecimal (3.1.5)
     coderay (1.1.1)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
+    csv (3.2.8)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -15,6 +18,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-net_http (3.1.0)
       net-http
+    faraday-retry (2.2.0)
+      faraday (~> 2.0)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.3)
@@ -135,7 +140,11 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor (~> 1.5.4)
+  base64
+  bigdecimal
   coderay (= 1.1.1)
+  csv
+  faraday-retry
   jekyll
   jekyll-asciidoc
   jekyll-gist
