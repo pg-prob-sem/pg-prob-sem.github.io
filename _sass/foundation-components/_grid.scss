@@ -29,7 +29,7 @@ $last-child-float: $opposite-direction !default;
 // $colNumber - Found in settings file
 // $totalColumns - Found in settings file
 @function grid-calc($colNumber, $totalColumns) {
-  @return percentage(math.div($colNumber, $totalColumns));
+  @return percentage($colNumber/$totalColumns);
 }
 
 // For creating container, nested, and collapsed rows.

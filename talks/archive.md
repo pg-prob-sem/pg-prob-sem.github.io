@@ -8,8 +8,11 @@ header:
 permalink: "talks/archive/"
 ---
 
-{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time and post.tags contains 'published'" %}
-{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time and post.tags contains 'published'" %}
+{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time" %}
+{% assign posts_future_published = posts_future | where: "tags", "published" %}
+
+{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% assign posts_past_published = posts_past | where: "tags", "published" %}
 <div id="talks-index" class="row">
 
 	<div class="small-12 columns t30">
@@ -22,7 +25,7 @@ permalink: "talks/archive/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% for post in posts_future limit:1000 %}
+			{% for post in posts_future_published limit:1000 %}
 			<dd class="accordion-navigation">
 				<a href="#panel{{ counter }}"><span class="iconfont"></span> {{ post.date | date: "%B %d, %Y" }} › 
 				<strong>{{ post.speaker }}</strong> › {{ post.title }}
@@ -45,7 +48,7 @@ permalink: "talks/archive/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter2 = 1001 %}
-			{% for post in posts_past limit:1000 %}
+			{% for post in posts_past_published limit:1000 %}
 			<dd class="accordion-navigation">
 				<a href="#panel{{ counter2 }}"><span class="iconfont"></span> {{ post.date | date: "%B %d, %Y" }} › 
 				<strong>{{ post.speaker }}</strong> › {{ post.title }}

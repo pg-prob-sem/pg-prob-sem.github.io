@@ -11,12 +11,15 @@ homepage: true
 
 {% assign today = site.time | date: '%s' %}
 
-{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time and post.tags contains 'published'" | sort: 'date' %}
-{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% assign posts_future = site.posts | where_exp: "post", "post.date > site.time" %}
+{% assign posts_future_published = posts_future | where: "tags", "published" %}
 
-{% assign next_talk = posts_future[0] %}
-{% assign upcoming_talk = posts_future[1] %}
-{% assign previous_talk = posts_past | first %}
+{% assign posts_past = site.posts | where_exp: "post", "post.date <= site.time" %}
+{% assign posts_past_published = posts_past | where: "tags", "published" %}
+
+{% assign next_talk = posts_future_published[0] %}
+{% assign upcoming_talk = posts_future_published[1] %}
+{% assign previous_talk = posts_past_published | first %}
 
 <div class="row">
 	{% include _talk_widget.html talk=previous_talk %}
@@ -67,4 +70,4 @@ map.addLayer(markers);
 
 
 
-<p>Number of past talks: {{ posts_past | size }}</p>
+<p>Number of past talks: {{ posts_past_published | size }}</p>
