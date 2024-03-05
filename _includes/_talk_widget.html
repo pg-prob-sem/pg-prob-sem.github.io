@@ -8,7 +8,10 @@ border: 6px solid #f5cc11; border-radius: 20px;
 <div class="medium-4 columns frontpage-widget" style="{{ style }}">
     <h2 style="color: #1122ee; margin-top: 5px;">{{ include.talk.date | date: '%B' }}</h2>
     {% if include.talk.image.title %}
-    <img src="{{ site.url }}/images/{{ include.talk.image.title }}" alt="{{ include.talk.title }}">
+    <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+        <img src="{{ site.url }}/images/{{ include.talk.image.title }}" alt="{{ include.talk.title }}"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+    </div>
     {% endif %}
     <h4 style="margin-top: 5px;">{{ include.talk.title }}</h4>
     <p style="margin-bottom: 0;"><strong>{{ include.talk.speaker }}</strong></p>
