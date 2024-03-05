@@ -8,11 +8,11 @@ speaker: "Alejandro Hernandez Wences"
 uni: "Universidad Nacional Autónoma de México (UNAM)"
 breadcrumb: true 
 categories:
-    - random_processes 
-tags:
-    - random_processes 
+    - random_processes
     - coalescents
     - lamperti_transforms
+    - measure_valued_processes
+tags:
     - published
 longitude: -99.1876
 latitude: 19.3328
@@ -34,7 +34,3 @@ In this presentation, Alejandro will share his collaborative work with [Arno Sir
 
 Alejandro studied genomic sciences during his undergraduate studies, mostly focusing on molecular and computational biology. Then he did a masters and PhD studies in mathematics, focusing on Population Genetics. Now, during his postdoc, he is incursionating in theoretical aspects of the learning of manifolds from data, and in stochastic control theory.
 
-
-## Other Random Processes talks
-{: .t60 }
-{% include list-posts category='random_processes' %}

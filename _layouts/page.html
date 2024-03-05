@@ -58,6 +58,38 @@ format: post
 				{{ content }}
 			</div>
 
+			<h2>Similar Talks</h2>
+			{% assign shared_tags_posts = "" | split: "|" %}
+			<!-- Initialize an empty array to hold posts with shared tags -->
+			{% for post in site.posts %}
+			{% assign shared_tag_found = false %}
+			{% for tag in page.categories %}
+			{% if post.categories contains tag and tag != "published" %}
+			{% assign shared_tag_found = true %}
+			{% break %}
+			{% endif %}
+			{% endfor %}
+			{% if shared_tag_found and post.url != page.url %}
+			{% unless shared_tags_posts contains post %}
+			{% assign shared_tags_posts = shared_tags_posts | push: post %}
+			<!-- Add post to array if not already included -->
+			{% endunless %}
+			{% endif %}
+			{% endfor %}
+
+			<ul class="side-nav">
+				{% for post in shared_tags_posts %}
+				<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+						{% if post.subheadline %}{{ post.subheadline }} › {% endif %}
+						<strong>{{ post.speaker }}</strong> › {{ post.title }}
+					</a>
+				</li>
+				{% endfor %}
+				<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/talks/archive/"><strong>{{
+							site.data.language.more }}</strong></a></li>
+			</ul>
+
+
 			{% if page.show_meta == true %}
 			{% include _meta_information.html %}
 			{% endif %}
@@ -82,3 +114,6 @@ format: post
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
 </div><!-- /.row -->
+<div class="row t30">
+	Test
+</div>
