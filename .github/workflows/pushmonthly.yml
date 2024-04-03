@@ -1,0 +1,34 @@
+name: Monthly Site Rebuild
+
+on:
+  schedule:
+    - cron: '0 0 L * *' # Triggers at 00:00 on the last day of every month
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7 # Adjust based on the Ruby version GitHub Pages uses or your project's Ruby version
+
+      - name: Install dependencies
+        run: |
+          bundle install
+
+      - name: Build the site with Jekyll
+        run: bundle exec jekyll build
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "pg.prob.sem@gmail.com"
+          git config --global user.name "GitHub Actions"
+          git add -A
+          git commit -m "Monthly rebuild of site" -a || echo "No changes to commit"
+          git push
