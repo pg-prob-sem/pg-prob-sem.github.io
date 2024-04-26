@@ -5,7 +5,7 @@ title:  "Lamperti Transforms of Self-Similar Measure-Valued Processes and Simple
 teaser: "In this presentation, Alejandro will share his collaborative work with Arno Siri-Jégousse in which they derived a Lamperti transform for self-similar processes that take values in normed vector spaces. "
 meta_teaser: "In this presentation, Alejandro will share his collaborative work with Arno Siri-Jégousse in which they derived a Lamperti transform for self-similar processes that take values in normed vector spaces.  "
 speaker: "Alejandro Hernandez Wences"
-uni: "Universidad Nacional Autónoma de México (UNAM)"
+uni: "Centre International de Mathématiques et Informatique de Toulouse"
 breadcrumb: true 
 categories:
     - random_processes
@@ -14,8 +14,8 @@ categories:
     - measure_valued_processes
 tags:
     - published
-longitude: -99.1876
-latitude: 19.3328
+longitude: 1.469818
+latitude: 43.561793
 image:
     title: alejandro.jpg 
     caption: Alejandro Hernandez Wences
