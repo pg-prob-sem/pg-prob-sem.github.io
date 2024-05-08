@@ -19,7 +19,7 @@
 		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
 	{% else %}
 		<a href="{{ widget_url }}">
-			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"/>{% endif %}
 		</a>
 	{% endif %}
 	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
