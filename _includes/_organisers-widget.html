@@ -1,26 +1,38 @@
 {% comment %}
 *
-*   First the include captures the url and image in a
-*   separate variable to make the code better readable.
+* First the include captures the url and image in a
+* separate variable to make the code better readable.
 *
-*   These variables are widget_url and widget_image
+* These variables are widget_url and widget_image
 *
 {% endcomment %}
 
-{% capture widget_url %}{% if include.widget.url == NULL %}{% elsif include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
+{% capture widget_url %}{% if include.widget.url == NULL %}{% elsif include.widget.url contains 'http' %}{{
+include.widget.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.widget.url }}{% endif %}{% endcapture %}
 
-{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
+{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{
+site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
 
 
 <div class="medium-4 columns organisers-widget">
 	{% if include.widget.video %}
-		{{ include.widget.video }}
+	{{ include.widget.video }}
 	{% elsif widget_url == empty %}
-		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+	{% if widget_image != empty %}
+	<div style="position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;">
+		<img src="{{ widget_image }}" alt=""
+			style="position: absolute; width: 100%; height: 100%; object-fit: cover;" />
+	</div>
+	{% endif %}
 	{% else %}
-		<a href="{{ widget_url }}">
-			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;"/>{% endif %}
-		</a>
+	<a href="{{ widget_url }}">
+		{% if widget_image != empty %}
+		<div style="position: relative; width: 100%; padding-bottom: 100%; overflow: hidden;">
+			<img src="{{ widget_image }}" alt=""
+				style="position: absolute; width: 100%; height: 100%; object-fit: cover;" />
+		</div>
+		{% endif %}
+	</a>
 	{% endif %}
 	<h2 class="font-size-h3 t10">{{ include.widget.title }}</h2>
 
