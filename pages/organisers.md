@@ -5,19 +5,19 @@ title               : "Organisers"
 subheadline         : ""
 teaser              : "The people behind the seminars"
 widget1:
-  title: "Jonas Köppl"
-  url: 'https://jonaskoeppl.github.io/'
-  image: jonas.jpg
-  text: ''
-widget2:
   title: "Niclas Küpper"
   url: 'https://people.bath.ac.uk/nmk37/'
   image: nic.jpg
   text: ''
-widget3:
+widget2:
   title: "Lukas Lüchtrath"
   url: 'https://wias-berlin.de/people/luechtrath/?lang=1'
   image: lukas.jpg
+  text: ''
+widget3:
+  title: "Jonas Köppl"
+  url: 'https://jonaskoeppl.github.io/'
+  image: jonas.jpg
   text: ''
 header:
    image_fullwidth  : "header_unsplash_12.jpg"
