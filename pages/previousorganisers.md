@@ -11,7 +11,7 @@ output:
     variant: markdown_github
     preserve_yaml: TRUE
 image:
-    title: Zsuzsa.jpg
+    title: squab.jpeg
     caption: The Original Squab
     caption_url: 
 ---
