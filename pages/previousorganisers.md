@@ -10,6 +10,10 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: TRUE
+image:
+    title: Zsuzsa.jpg
+    caption: The Original Squab
+    caption_url: 
 ---
 In April 2022, Pawel Rudnicki, Carmen van-de-l'Isle, and Nic Küpper (all PhD students at the Univeristy of Bath UK) went to a conference in Bristol and met Erin G Russell (university of Bristol PhD student). Together, along with a later addition of Davy Ker (university of Bristol PhD student) they set up a joint seminar series between Bath University and Bristol University. In April 2023 the seminar series went global with our first talk given by Bas Lodewijks, then at the Institut Camille Jordan at the University of Lyon. A full list of our previous organisers can be found below:
 
