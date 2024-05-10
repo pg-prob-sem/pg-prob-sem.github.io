@@ -59,18 +59,7 @@ format: previous_organisers_page
 			</div>
 
 
-			<ul class="side-nav">
-				{% for post in shared_tags_posts %}
-				<li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-						{% if post.subheadline %}{{ post.subheadline }} › {% endif %}
-						<strong>{{ post.speaker }}</strong> › {{ post.title }}
-					</a>
-				</li>
-				{% endfor %}
-				<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/talks/archive/"><strong>{{
-							site.data.language.more }}</strong></a></li>
-			</ul>
-
+			
 
 			{% if page.show_meta == true %}
 			{% include _meta_information.html %}
