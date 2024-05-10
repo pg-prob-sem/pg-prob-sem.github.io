@@ -1,5 +1,5 @@
 ---
-layout              : page
+layout              : previous_organisers_page
 title               : "Previous Organisers"
 subheadline         : ""
 teaser              : ""
