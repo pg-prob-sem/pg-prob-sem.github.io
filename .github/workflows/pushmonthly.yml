@@ -2,7 +2,7 @@ name: Monthly Site Rebuild
 
 on:
   schedule:
-    - cron: '0 0 1 * *' # Triggers at 00:00 on the 1st day every month
+    - cron: '1 0 * * *' # Triggers at 00:00 on the 1st day every month
   workflow_dispatch: # Allows manual triggering
 
 jobs:
