@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Postgraduate Online Probability Seminars'
+title: "Postgraduate Online Probability Seminars"
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'Postgraduate Online Probability Seminars'
+slogan: "Postgraduate Online Probability Seminars"
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications.'
+description: "The Postgraduate Online Probability Seminar (POPS) is an online platform for doctoral students and post-docs from all over the world to present and promote their research to a global audience in areas related to probability and its applications."
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -25,8 +25,8 @@ author: carmen
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://pg-prob-sem.github.io'
-baseurl: '/'
+url: "https://pg-prob-sem.github.io"
+baseurl: "/"
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -38,44 +38,45 @@ baseurl: '/'
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://pg-prob-sem.github.io/images/'
+urlimg: "https://pg-prob-sem.github.io/images/"
 
+# Claude told me to add this:
+repository: pg-prob-sem/pg-prob-sem.github.io
+github: [metadata]
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
 # Plugins
 plugins:
-    - jekyll-asciidoc
-    - jekyll-gist
-    - jekyll-paginate
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-github-metadata
 
-paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
-
+paginate: 5 # Paginates all X entries
+paginate_path: "blog/page:num" # Pagination path › Important for blog page in /blog/ to work
 
 # Theme works best with Kramdown (using the table of contents function)
-future             : true
-timezone           : GB
-markdown           : kramdown
-permalink          : /:categories/:title/
-highlight          : rouge
-excerpt_separator  : "<!--more-->"
-include            : ['.htaccess']
+future: true
+timezone: GB
+markdown: kramdown
+permalink: /:categories/:title/
+highlight: rouge
+excerpt_separator: "<!--more-->"
+include: [".htaccess"]
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - INSTALL.md
-    - vendor
-
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - INSTALL.md
+  - vendor
 
 # The language setting is used in /includes/header.html for html-settings
-language: 'en'
-
+language: "en"
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
@@ -87,7 +88,6 @@ compress_html:
   ignore:
     envs: [development]
 
-
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
@@ -98,26 +98,22 @@ compress_html:
 # Default Settings
 
 defaults:
-  -
-    scope:
-      path: '' 				# an empty string here means all files in the project
-      type: 'pages'
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
     values:
-      show_meta: false 	# Hide metadata for all pages
+      show_meta: false # Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
-  -
-    scope:
-      path: ''
-      type: 'posts'
+      author: phlow # Default author for pages
+  - scope:
+      path: ""
+      type: "posts"
     values:
-      show_meta: true   # Show metadata for all posts
+      show_meta: true # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
-
-
+      author: phlow # Default author for posts
 
 #       _   __            _             __  _
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
@@ -129,20 +125,16 @@ defaults:
 #  Open _data/navigation.yml to adjust the left and right topbar navigation
 #
 
-
-
 #     _____ __________
 #    / ___// ____/ __ \
 #    \__ \/ __/ / / / /
 #   ___/ / /___/ /_/ /
 #  /____/_____/\____/    Verify Website to Webmaster Tools
 
-google_site_verification        : 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
-bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
+google_site_verification: "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
+bing_webmastertools_id: "0FB4C028ABCF07C908C54386ABD2D97F"
 # yandex_site_verification      : ''
 # alexa_verify_id               : ''
-
-
 
 #       ______            _
 #      / ____/___ __   __(_)________  ____  _____
@@ -151,19 +143,18 @@ bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
-favicon-32x32                        : 'favicon-32x32.png'
-touch-icon-192x192                   : 'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed : 'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed : 'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed : 'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed : 'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed : 'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed   : 'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed         : 'apple-touch-icon-precomposed.png'
-msapplication_tileimage              : 'msapplication_tileimage.png'               # Size 144x144
-msapplication_tilecolor              : '#fabb00'
-
+favicon-32x32: "favicon-32x32.png"
+touch-icon-192x192: "touch-icon-192x192.png"
+apple-touch-icon-180x180-precomposed: "apple-touch-icon-180x180-precomposed.png"
+apple-touch-icon-152x152-precomposed: "apple-touch-icon-152x152-precomposed.png"
+apple-touch-icon-144x144-precomposed: "apple-touch-icon-144x144-precomposed.png"
+apple-touch-icon-120x120-precomposed: "apple-touch-icon-120x120-precomposed.png"
+apple-touch-icon-114x114-precomposed: "apple-touch-icon-114x114-precomposed.png"
+apple-touch-icon-76x76-precomposed: "apple-touch-icon-76x76-precomposed.png"
+apple-touch-icon-72x72-precomposed: "apple-touch-icon-72x72-precomposed.png"
+apple-touch-icon-precomposed: "apple-touch-icon-precomposed.png"
+msapplication_tileimage: "msapplication_tileimage.png" # Size 144x144
+msapplication_tilecolor: "#fabb00"
 
 #       ______                __                __
 #      / ____/___ _________  / /_  ____  ____  / /__
@@ -171,10 +162,9 @@ msapplication_tilecolor              : '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image                             : 'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_locale                            : 'en_EN'
-og_type                              : 'website'
-
+og_image: "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+og_locale: "en_EN"
+og_type: "website"
 
 #      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
@@ -186,9 +176,8 @@ og_type                              : 'website'
 #
 
 socialmedia:
-    twitter   : phlow
-    facebook  : phlow.media
-
+  twitter: phlow
+  facebook: phlow.media
 
 #        ____  _
 #       / __ \(_)________ ___  _______
@@ -199,8 +188,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-# disqus_shortname: 
-
+# disqus_shortname:
 
 #      _____
 #     / ___/____ ___________
@@ -210,12 +198,8 @@ socialmedia:
 #
 
 sass:
-    sass_dir : _sass
-    style    : :compressed
-
-
-
-
+  sass_dir: _sass
+  style: :compressed
 
 #     ___              _     __           __
 #    /   |  __________(_)___/ /___  _____/ /_____  _____
@@ -233,15 +217,12 @@ sass:
 
 asciidoctor-enabled: false
 asciidoctor:
-  description: 
+  description:
   attributes:
     source-highlighter: coderay
     coderay-css: style
     icons: font
 
-
-
 MathJax:
   TeX:
     extensions: ["AMSmath.js", "AMSsymbols.js"]
-
