@@ -308,6 +308,7 @@ DEPENDENCIES
   csv
   faraday-retry
   github-pages
+  jekyll-github-metadata
   jekyll-maps
   webrick
 
