@@ -2,8 +2,8 @@
 layout: page
 subheadline: April 30th 2025
 title: "Cutoff and mixing trichotomy for the simple random walk on random digraphs"
-teaser: " In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
-meta_teaser: "In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
+teaser: "In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model."
+meta_teaser: "In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model."
 speaker: "Giacomo Passuello"
 uni: "University of Padova"
 breadcrumb: true <- don't change this
@@ -11,11 +11,11 @@ categories:
   - random_walks
   - random_graphs
 tags:
-  - published <- add  PUBLISHED
+  - published 
 longitude: 11.876927
 latitude: 45.406671
 image:
-  title: Giacomo-Gassuello.JPG <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
+  title: Giacomo-Gassuello.JPG
   caption: Giacomo Passuello
   caption_url: https://www.math.unipd.it/dipartimento/persone/giacomo.passuello/
 header:
