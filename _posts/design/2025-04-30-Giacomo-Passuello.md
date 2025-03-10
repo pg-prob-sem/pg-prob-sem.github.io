@@ -1,22 +1,23 @@
 ---
 layout: page
-subheadline: Put the date of the talk here -  Month day year
-title: "Speaker name: talk title (or TBA if not known yet)"
-teaser: " Give a quick two sentence summary of the talk "
-meta_teaser: " identical to teaser "
-speaker: "name of speaker here"
-uni: "institute or univeristy of the speaker"
+subheadline: April 30th, 2025
+title: "Cutoff and mixing trichotomy for the simple random walk on random digraphs"
+teaser: " In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
+meta_teaser: "In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
+speaker: "Giacomo Passuello"
+uni: "University of Padova"
 breadcrumb: true <- don't change this
 categories:
-  - category <- pick multiple categories for the talk
+  - random_walks
+  - random_graphs
 tags:
   - tag <- add  PUBLISHED
-longitude: longitude of the speakers uni (in numbers)
-latitude: latitude of the speakers uni (in numbers)
+longitude: 11.876927
+latitude: 45.406671
 image:
   title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
-  caption: Use the speakers name as a caption
-  caption_url: https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez
+  caption: Giacomo Passuello
+  caption_url: https://www.math.unipd.it/dipartimento/persone/giacomo.passuello/
 header:
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
