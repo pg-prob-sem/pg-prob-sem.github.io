@@ -12,7 +12,7 @@ categories:
   - random_graphs
 tags:
   - published 
-longitude: 11.876927
+longitude: 11.87693
 latitude: 45.406671
 image:
   title: Giacomo-Gassuello.JPG
