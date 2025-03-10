@@ -15,7 +15,7 @@ tags:
 longitude: 11.87693
 latitude: 45.406671
 image:
-  title: Giacomo-Gassuello.JPG
+  title: Giacomo-Passuello.JPG
   caption: Giacomo Passuello
   caption_url: https://www.math.unipd.it/dipartimento/persone/giacomo.passuello/
 header:
