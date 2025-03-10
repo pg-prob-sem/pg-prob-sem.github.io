@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: April 30th, 2025
+subheadline: April 30th 2025
 title: "Cutoff and mixing trichotomy for the simple random walk on random digraphs"
 teaser: " In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
 meta_teaser: "In his talk Giacomo studies the mixing behaviour of random walks on the directed Chung-Lu graph and a directed version of the stochastic block model. "
@@ -11,7 +11,7 @@ categories:
   - random_walks
   - random_graphs
 tags:
-  - tag <- add  PUBLISHED
+  - published <- add  PUBLISHED
 longitude: 11.876927
 latitude: 45.406671
 image:
