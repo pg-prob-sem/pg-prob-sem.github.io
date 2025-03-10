@@ -15,7 +15,7 @@ tags:
 longitude: 11.876927
 latitude: 45.406671
 image:
-  title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
+  title: Giacomo-Gassuello.JPG <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
   caption: Giacomo Passuello
   caption_url: https://www.math.unipd.it/dipartimento/persone/giacomo.passuello/
 header:
