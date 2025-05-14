@@ -17,7 +17,7 @@ latitude: 45.406671
 image:
   title: Giacomo-Passuello.JPG
   caption: Giacomo Passuello
-  caption_url: https://www.math.unipd.it/dipartimento/persone/giacomo.passuello/
+  caption_url: https://sites.google.com/view/passuello/
 header:
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
@@ -40,7 +40,7 @@ We then introduce a digraph featuring a community structure, inspired by the sto
 
 Joint works with Alessandra Bianchi and Matteo Quattropani.
 
-## About Giacomo
+## About [Giacomo](https://sites.google.com/view/passuello/)
 
 Giacomo is currently a third year PhD student at the University of Padova under the supervision of Alessandra Bianchi.
 His research interests involve mixing times of random dynamics and random graphs.
