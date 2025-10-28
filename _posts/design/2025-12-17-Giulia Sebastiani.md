@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: "December 17, 2025"
+subheadline: December 17, 2025
 title: "Giulia Sebastiani: TBA"
 teaser: " TBA "
 meta_teaser: " TBA "
@@ -22,26 +22,14 @@ header:
 author: mo
 ---
 
-# Instructions:
+## [Link to Join MS Teams Talk](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2Q2NGY2NDEtYWVmNS00NzE3LWI0ZWMtMWFiZmE3NGM2MTc3%40thread.v2/0?context=%7b%22Tid%22%3a%22377e3d22-4ea1-422d-b0ad-8fcc89406b9e%22%2c%22Oid%22%3a%2243af9e94-a882-4d59-8a92-d00c8899065e%22%7d)
 
-This is a run through of how to edit the website in order to add a speaker including a design template. Please do not delete this file or edit over it, instead create a copy and edit that.
+**This talk will be broadcast at 13:30 BT / 14:30 CET / 15:30 EET, December 17, 2025 on MS Teams only.**
 
-Steps:
-
-1.  edit the name of the file, add `- published` to the tags once ready to publish.
-
-2.  Add all relevant categories to the categories section of the front-matter.
-3.  edit the front matter (the above bit between the dashes) - some instructions are within the front matter to help you. For the tags, if the talk is in the future please include upcoming, else include previous. This ensures that it is put in the correct section of the archive. Pay attention to the category choice because the link for the speakers webpage will be https://pg-prob-sem.github.io/category/name/ where category is from the front matter and the name is from the filename that you set up in step 1.
-4.  edit the content of the post. This is below these instructions. You need to add an abstract and a bio.
-
-5.  Edit the home page. If you would like it to appear on the homepage, change the widgets so that one of them matches your new speaker. The map will automatically update with a pin for this speaker once you add the long and lat of the speakers uni.
-
-6.  You should be all good to go!
+Meeting ID: 393 527 089 878 \
+Passcode: dsm7py
 
 ## Abstract
-
-[Insert abstract here]
-
-## About [Insert Speaker Name]
-
-[Insert a short bio]
+TBA
+## About Giulia
+Giulia is currently a postdoc in the Probability Theory group at IAM, under the mentorship of Prof. Dr. Anton Bovier. I did her PhD at Goethe University Frankfurt. Her work centres around statistical mechanics with a focus on the Random Energy Model and its variations.  
