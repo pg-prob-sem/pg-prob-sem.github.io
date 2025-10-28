@@ -1,22 +1,22 @@
 ---
 layout: page
-subheadline: Put the date of the talk here -  Month day year
-title: "Speaker name: talk title (or TBA if not known yet)"
-teaser: " Give a quick two sentence summary of the talk "
-meta_teaser: " identical to teaser "
-speaker: "name of speaker here"
-uni: "institute or univeristy of the speaker"
-breadcrumb: true <- don't change this
+subheadline: "December 17, 2025"
+title: "Giulia Sebastiani: TBA"
+teaser: " TBA "
+meta_teaser: " TBA "
+speaker: "Giulia Sebastiani"
+uni: "University of Bonn"
+breadcrumb: true 
 categories:
-  - category <- pick multiple categories for the talk
+  - statistical_mechanics
 tags:
-  - tag <- add  PUBLISHED
-longitude: longitude of the speakers uni (in numbers)
-latitude: latitude of the speakers uni (in numbers)
+  - PUBLISHED
+longitude: 7.102656
+latitude: 50.7336038
 image:
-  title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
-  caption: Use the speakers name as a caption
-  caption_url: https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez
+  title: giulia-sebastiani.jpg 
+  caption: Giulia Sebastiani
+  caption_url: https://wt.iam.uni-bonn.de/faculty-staff/probability-theory/giulia-sebastiani/home
 header:
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
