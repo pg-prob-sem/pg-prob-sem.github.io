@@ -33,4 +33,4 @@ Passcode: dsm7py
 TBA
 
 ## About Giulia
-Giulia is currently a postdoc in the Probability Theory group at IAM, under the mentorship of Prof. Dr. Anton Bovier. I did her PhD at Goethe University Frankfurt. Her work centres around statistical mechanics with a focus on the Random Energy Model and its variations.  
+Giulia is currently a postdoc in the Probability Theory group at IAM, under the mentorship of Prof. Dr. Anton Bovier. She did her PhD at Goethe University Frankfurt. Her work centres around statistical mechanics with a focus on the Random Energy Model and its variations.  
