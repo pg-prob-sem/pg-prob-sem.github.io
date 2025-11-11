@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: December 17, 2025
+subheadline: December 17th, 2025
 title: "Giulia Sebastiani: TBA"
 teaser: " TBA "
 meta_teaser: " TBA "
