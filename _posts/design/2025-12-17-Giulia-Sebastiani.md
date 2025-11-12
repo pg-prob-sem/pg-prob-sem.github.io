@@ -10,7 +10,7 @@ breadcrumb: true
 categories:
   - statistical_mechanics
 tags:
-  - PUBLISHED
+  - published
 longitude: 7.102656
 latitude: 50.7336038
 image:
