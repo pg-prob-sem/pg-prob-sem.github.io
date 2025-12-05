@@ -3,7 +3,7 @@ layout: page
 subheadline: December 17th, 2025
 title: "From Parisi to Boltzmann: via GREM and TAP"
 teaser: " In this talk, Giulia explores how abstract, fully solvable hierarchical models can shed new light on the Parisi landscape for mean-field spin glasses. By revisiting the TAP representation of the SK free energy, she uncovers a natural path to constructing nonlinear, GREM-like Hamiltonians whose thermodynamics admit strikingly compact Parisi-type formulas. These models reveal a correction mechanism that markedly narrows the gap to the true SK free energy. "
-meta_teaser: " TBA "
+meta_teaser: " In this talk, Giulia explores how abstract, fully solvable hierarchical models can shed new light on the Parisi landscape for mean-field spin glasses. By revisiting the TAP representation of the SK free energy, she uncovers a natural path to constructing nonlinear, GREM-like Hamiltonians whose thermodynamics admit strikingly compact Parisi-type formulas. These models reveal a correction mechanism that markedly narrows the gap to the true SK free energy. "
 speaker: "Giulia Sebastiani"
 uni: "University of Bonn"
 breadcrumb: true 
