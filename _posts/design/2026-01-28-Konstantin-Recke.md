@@ -2,7 +2,7 @@
 layout: page
 subheadline: January 28th, 2026
 title: "Voronoi percolation on a product of trees"
-teaser: " TBA"
+teaser: "Bernoulli–Voronoi percolation combines geometric randomness with classical percolation, creating a two-parameter model whose phase transitions reveal surprisingly rich structure. In this talk, Konstantin introduces both the discrete and Poisson settings. He uncovers an unexpected low-intensity behavior of the uniqueness threshold on the product of two 3-regular trees. The resulting phenomenon can be applied resolves an open question of to a question of Hutchcroft and Pete (2020) and Pete and Rokob (2025)."
 meta_teaser: " TBA "
 speaker: "Konstantin Recke"
 uni: "University of Oxford"
