@@ -2,8 +2,8 @@
 layout: page
 subheadline: February 25th, 2026
 title: "Formation of clusters and coarsening in weakly interacting diffusions"
-teaser: ""
-meta_teaser: "  "
+teaser: "We study weakly interacting diffusions on the one-dimensional torus and show how finite-range attraction leads to cluster formation and metastable coarsening via either coalescence or mass exchange, captured by a joint Eyring–Kramers–type model. A new strict Riesz rearrangement then characterizes global free-energy minimizers, revealing that only uniform or single-cluster states can persist."
+meta_teaser: "We study weakly interacting diffusions on the one-dimensional torus and show how finite-range attraction leads to cluster formation and metastable coarsening via either coalescence or mass exchange, captured by a joint Eyring–Kramers–type model. A new strict Riesz rearrangement then characterizes global free-energy minimizers, revealing that only uniform or single-cluster states can persist."
 speaker: "Nicolai Gerber"
 uni: "University of Ulm"
 breadcrumb: true 
