@@ -23,12 +23,12 @@ header:
 author: mo
 ---
 
-## [Link to Join MS Teams Talk](https://teams.microsoft.com/l/meetup-join/19%3ameeting_N2Q2NGY2NDEtYWVmNS00NzE3LWI0ZWMtMWFiZmE3NGM2MTc3%40thread.v2/0?context=%7b%22Tid%22%3a%22377e3d22-4ea1-422d-b0ad-8fcc89406b9e%22%2c%22Oid%22%3a%2243af9e94-a882-4d59-8a92-d00c8899065e%22%7d)
+## [Link to Join Zoom Meeting](https://wias-berlin-de.zoom-x.de/j/66747761513?pwd=nfPUbXHA8aLmyo4qESwbRxTkcF1kSA.1)
 
-**This talk will be broadcast at 13:30 BT / 14:30 CET / 15:30 EET, February 25th, 2026 on MS Teams only. **
+**This talk will be broadcast at 13:30 BT / 14:30 CET / 15:30 EET, February 25th, 2026 on Zoom only. **
 
-Meeting ID: 393 527 089 878 \
-Passcode: dsm7py
+Meeting-ID: 667 4776 1513
+Passcode: 834059
 
 ## Abstract
 How do weakly interacting diffusions on the one-dimensional torus behave under finite-range attractive interactions? In this talk, we explore different effects, such as cluster formation, and how clusters coarsen into single-cluster states. Depending on the parameter regime, this coarsening can occur through two distinct mechanisms: 1. Coalescence, where clusters move and merge like coalescing Brownian motions. 2. Mass exchange: Individual particles detach from one cluster and attach to another, enabling mass transfer between clusters. Based on a version of the Eyring-Kramers law, we introduce a joint model to describe these effects and argue that the corresponding deterministic mean-field PDE exhibits dynamical metastability through the mass exchange.
