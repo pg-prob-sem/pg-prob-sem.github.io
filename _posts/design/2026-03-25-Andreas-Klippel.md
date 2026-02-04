@@ -2,8 +2,8 @@
 layout: page
 subheadline: March 25th, 2026
 title: "Dimers, Double Dimers, and Spatial Permutations with Long-Range Interactions"
-teaser: ""
-meta_teaser: ""
+teaser: "In this talk, we explore how dimer and double-dimer models behave beyond the planar setting when long-range interactions are present, revealing robust monomer correlations and the emergence of macroscopic loops. The talk connects these phenomena to spatial permutations and highlights reflection positivity as the central analytical tool."
+meta_teaser: "In this talk, we explore how dimer and double-dimer models behave beyond the planar setting when long-range interactions are present, revealing robust monomer correlations and the emergence of macroscopic loops. The talk connects these phenomena to spatial permutations and highlights reflection positivity as the central analytical tool."
 speaker: "Andreas Klippel"
 uni: "Technical University Darmstadt"
 breadcrumb: true 
