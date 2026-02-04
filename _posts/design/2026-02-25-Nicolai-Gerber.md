@@ -38,4 +38,4 @@ Moreover, we introduce a new variant of the strict Riesz rearrangement to charac
 Joint work with R. Gvalani, M. Hairer, G. Pavliotis, and A. Schlichting.
 
 ## About Nicolai
-Nico is currently working on his PhD under the supervision of André Schlichting at the University of Ulm (Germany). He completed his master's thesis with Franca Hoffmann at the University of Bonn. His research focuses on interacting particle systems, studying metastability, propagation of chaos, and coarsening.
+Nicolai is currently working on his PhD under the supervision of André Schlichting at the University of Ulm (Germany). He completed his master's thesis with Franca Hoffmann at the University of Bonn. His research focuses on interacting particle systems, studying metastability, propagation of chaos, and coarsening.
