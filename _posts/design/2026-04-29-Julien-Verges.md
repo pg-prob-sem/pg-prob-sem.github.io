@@ -6,11 +6,11 @@ teaser: " TBA "
 meta_teaser: " TBA "
 speaker: "Julien Verges"
 uni: "Université de Tours"
-breadcrumb: true <- don't change this
+breadcrumb: true
 categories:
-  - percolation <- pick multiple categories for the talk
+  - percolation
 tags:
-  - published <- add  PUBLISHED
+  - published
 longitude: 0.6821699738502502
 latitude: 47.3639030456543
 image:
