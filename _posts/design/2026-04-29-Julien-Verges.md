@@ -22,26 +22,12 @@ header:
 author: mo
 ---
 
-# Instructions:
 
-This is a run through of how to edit the website in order to add a speaker including a design template. Please do not delete this file or edit over it, instead create a copy and edit that.
-
-Steps:
-
-1.  edit the name of the file, add `- published` to the tags once ready to publish.
-
-2.  Add all relevant categories to the categories section of the front-matter.
-3.  edit the front matter (the above bit between the dashes) - some instructions are within the front matter to help you. For the tags, if the talk is in the future please include upcoming, else include previous. This ensures that it is put in the correct section of the archive. Pay attention to the category choice because the link for the speakers webpage will be https://pg-prob-sem.github.io/category/name/ where category is from the front matter and the name is from the filename that you set up in step 1.
-4.  edit the content of the post. This is below these instructions. You need to add an abstract and a bio.
-
-5.  Edit the home page. If you would like it to appear on the homepage, change the widgets so that one of them matches your new speaker. The map will automatically update with a pin for this speaker once you add the long and lat of the speakers uni.
-
-6.  You should be all good to go!
 
 ## Abstract
 
-[Insert abstract here]
+TBA
 
-## About [Insert Speaker Name]
+## About Julien
+Julien is a PhD student in mathematics under the supervision of Jean-Baptiste Gouéré (IDP) and Marie Théret (Modal’X). He studies first-passage percolation and greedy animals/paths. More precisely, he is interested in proving large deviations principles for these models.
 
-[Insert a short bio]
