@@ -6,7 +6,7 @@ teaser: " TBA "
 meta_teaser: " TBA "
 speaker: "Mike van Santvoort"
 uni: "TU Eindhoven"
-breadcrumb: true <- don't change this
+breadcrumb: true
 categories:
   - complex_networks
   - random_graphs
@@ -15,7 +15,7 @@ tags:
 longitude: 5.490609645843506
 latitude: 51.450111389160156
 image:
-  title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
+  title: placeholder.jpg
   caption: Mike van Santvoort
   caption_url: https://research.tue.nl/en/persons/mike-van-santvoort/
   image_fullwidth: "header_unsplash_12.jpg"
@@ -28,4 +28,4 @@ author: mo
 TBA
 
 ## About Mike
-[Insert a short bio]
+
