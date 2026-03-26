@@ -28,4 +28,4 @@ author: mo
 TBA
 
 ## About Mike
-
+Mike is a final-year PhD student at Eindhoven University of Technology. His research focusses on using random graph models to infer how cells in cancerous tissue communicate with each other. He is both interested in understanding these models on a fundamental level, as well as applying them to real-life datasets to understand the mechanisms in which tumors proliferate and evade the immune system. Apart from his research interests, Mike is a licensed high school teacher and is interested in developing new ways to teach and assess mathematics. During his PhD, he developed several new courses at the TU/e, and has researched the impact of alternative assessments to student engagement and performance.
