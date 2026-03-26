@@ -1,14 +1,14 @@
 ---
 layout: page
-subheadline: Put the date of the talk here -  Month day year
-title: "Speaker name: talk title (or TBA if not known yet)"
-teaser: " Give a quick two sentence summary of the talk "
-meta_teaser: " identical to teaser "
-speaker: "name of speaker here"
-uni: "institute or univeristy of the speaker"
+subheadline: Aprile 29th
+title: "TBA"
+teaser: " TBA "
+meta_teaser: " TBA "
+speaker: "Julien Verges"
+uni: "Université de Tours"
 breadcrumb: true <- don't change this
 categories:
-  - category <- pick multiple categories for the talk
+  - percolation <- pick multiple categories for the talk
 tags:
   - tag <- add  PUBLISHED
 longitude: longitude of the speakers uni (in numbers)
