@@ -15,7 +15,7 @@ tags:
 longitude: 5.490609645843506
 latitude: 51.450111389160156
 image:
-  title: placeholder.jpg
+  title: Mike-vS.jpg
   caption: Mike van Santvoort
   caption_url: https://research.tue.nl/en/persons/mike-van-santvoort/
   image_fullwidth: "header_unsplash_12.jpg"
