@@ -10,13 +10,13 @@ breadcrumb: true <- don't change this
 categories:
   - percolation <- pick multiple categories for the talk
 tags:
-  - tag <- add  PUBLISHED
-longitude: longitude of the speakers uni (in numbers)
-latitude: latitude of the speakers uni (in numbers)
+  - published <- add  PUBLISHED
+longitude: 0.6821699738502502
+latitude: 47.3639030456543
 image:
   title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
-  caption: Use the speakers name as a caption
-  caption_url: https://eps.leeds.ac.uk/faculty-engineering-physical-sciences/pgr/8775/luis-mario-chaparro-jaquez
+  caption: Julien Verges
+  caption_url: https://www.idpoisson.fr/verges/
 header:
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
