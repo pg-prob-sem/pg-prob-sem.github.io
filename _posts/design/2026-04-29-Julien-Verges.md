@@ -14,7 +14,7 @@ tags:
 longitude: 0.6821699738502502
 latitude: 47.3639030456543
 image:
-  title: placeholder.jpg <- pick an image for the talk or leave as a placeholder until you have one. This image needs to be saved in the images folder
+  title: placeholder.jpg
   caption: Julien Verges
   caption_url: https://www.idpoisson.fr/verges/
 header:
