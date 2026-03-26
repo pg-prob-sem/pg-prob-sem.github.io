@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline: Aprile 29th, 2026
+subheadline: April 29th, 2026
 title: "TBA"
 teaser: " TBA "
 meta_teaser: " TBA "
