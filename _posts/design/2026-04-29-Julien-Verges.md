@@ -5,18 +5,19 @@ title: "Large deviations of the random metric in first-passage percolation"
 teaser: "Large deviations for the first-passage metric"
 meta_teaser: "Large deviations for the first-passage metric "
 speaker: "Julien Verges"
-uni: "Université de Tours"
+uni: "Stockholm University"
 breadcrumb: true
 categories:
   - percolation
+  - large-deviations
 tags:
   - published
-longitude: 0.6821699738502502
-latitude: 47.3639030456543
+longitude: 18.05377960205078
+latitude: 59.36575698852539
 image:
   title: julien-verges.jpeg
   caption: Julien Verges
-  caption_url: https://www.idpoisson.fr/verges/
+  caption_url: https://www.su.se/english/profiles/j/juve9782
 header:
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
@@ -29,5 +30,5 @@ Let us endow the edges of the usual Z² graph with i.i.d. nonnegative weights; t
 I will start by presenting theorems from Kesten and Basu-Ganguly-Sly about the probability of events on which for a fixed direction x, T(0,nx) is exceptionnally large or small. Then I will explain how these results may be extended to cover a wider class of large deviation events.
 
 ## About Julien
-Julien is a postdoc in Stockholm university, with Daniel Ahlberg. His previous work involves two models of statistical mechanics, namely greedy animals and first-passage percolation, with a focus on large deviations. He currently works on analogous models defined on hyperbolic spaces.
+Julien is a postdoc in Stockholm University, with Daniel Ahlberg. His previous work involves two models of statistical mechanics, namely greedy animals and first-passage percolation, with a focus on large deviations. He currently works on analogous models defined on hyperbolic spaces.
 
