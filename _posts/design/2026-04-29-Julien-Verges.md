@@ -26,8 +26,8 @@ author: mo
 
 ## Abstract
 
-Let us endow the edges of the usual Z² graph with i.i.d. nonnegative weights; this defines a random metric T on Z². The so-called shape theorem essentially states that almost surely, seen from far away, T resembles the metric associated with some deterministic norm mu. We are interested in the large deviations of the model, i.e. the rare events where T varies linearly from this typical behaviour. 
-I will start by presenting theorems from Kesten and Basu-Ganguly-Sly about the probability of events on which for a fixed direction x, T(0,nx) is exceptionnally large or small. Then I will explain how these results may be extended to cover a wider class of large deviation events.
+Let us endow the edges of the usual $\mathbb{Z}^2$ graph with i.i.d. nonnegative weights; this defines a random metric $T$ on $\mathbb{Z}^2$. The so-called shape theorem essentially states that almost surely, seen from far away, $T$ resembles the metric associated with some deterministic norm $\mu$. We are interested in the large deviations of the model, i.e. the rare events where $T$ varies linearly from this typical behaviour. 
+I will start by presenting theorems from Kesten and Basu-Ganguly-Sly about the probability of events on which for a fixed direction $x$, $T(0,nx)$ is exceptionnally large or small. Then I will explain how these results may be extended to cover a wider class of large deviation events.
 
 ## About Julien
 Julien is a postdoc in Stockholm University, with Daniel Ahlberg. His previous work involves two models of statistical mechanics, namely greedy animals and first-passage percolation, with a focus on large deviations. He currently works on analogous models defined on hyperbolic spaces.
