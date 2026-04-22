@@ -14,7 +14,7 @@ tags:
 longitude: 0.6821699738502502
 latitude: 47.3639030456543
 image:
-  title: julien-verges.jpg
+  title: julien-verges.jpeg
   caption: Julien Verges
   caption_url: https://www.idpoisson.fr/verges/
 header:
