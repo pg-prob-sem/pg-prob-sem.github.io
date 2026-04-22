@@ -22,9 +22,6 @@ header:
 author: mo
 ---
 
-## Title
-
-Large deviations of the random metric in first-passage percolation
 
 ## Abstract
 
