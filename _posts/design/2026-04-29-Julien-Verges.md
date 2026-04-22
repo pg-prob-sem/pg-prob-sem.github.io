@@ -1,9 +1,9 @@
 ---
 layout: page
 subheadline: April 29th, 2026
-title: "TBA"
-teaser: " TBA "
-meta_teaser: " TBA "
+title: "Large deviations of the random metric in first-passage percolation"
+teaser: "Large deviations for the first-passage metric"
+meta_teaser: "Large deviations for the first-passage metric "
 speaker: "Julien Verges"
 uni: "Université de Tours"
 breadcrumb: true
