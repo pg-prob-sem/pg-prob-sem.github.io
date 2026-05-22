@@ -22,6 +22,12 @@ image:
 author: mo
 ---
 
+## [Link to Join Zoom Meeting](https://wias-berlin-de.zoom-x.de/j/66747761513?pwd=nfPUbXHA8aLmyo4qESwbRxTkcF1kSA.1)
+
+**This talk will be broadcast at 13:30 BT / 14:30 CET / 15:30 EET, May 27th, 2026 on Zoom only. **
+
+Meeting-ID: 667 4776 1513
+Passcode: 834059
 
 ## Abstract
 
