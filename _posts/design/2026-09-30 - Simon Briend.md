@@ -1,37 +1,37 @@
 ---
 layout: page
-subheadline: May 27th, 2026
-title: "Modelling cell-cell interactions with random graphs: a journey from biology to math and back."
-teaser: " In this talk, Mike introducse RaCInG, a Monte-Carlo framework that turns bulk RNA-seq data into random graphs of cell–cell communication in cancerous tissue. Through its asymptotic link to inhomogeneous random digraphs, RaCInG extracts biologically meaningful patterns, predicts melanoma immunotherapy response, and extends to spatial communication in glioblastoma. "
-meta_teaser: " In this talk, Mike introducse RaCInG, a Monte-Carlo framework that turns bulk RNA-seq data into random graphs of cell–cell communication in cancerous tissue. Through its asymptotic link to inhomogeneous random digraphs, RaCInG extracts biologically meaningful patterns, predicts melanoma immunotherapy response, and extends to spatial communication in glioblastoma. "
-speaker: "Mike van Santvoort"
-uni: "TU Eindhoven"
+subheadline: September 30th, 2026
+title: "Estimating the history of random recursive tree"
+teaser: "  "
+meta_teaser: "  "
+speaker: "Simon Briend"
+uni: "UniDistance Suisse"
 breadcrumb: true
 categories:
-  - complex_networks
   - random_graphs
 tags:
   - published
 longitude: 5.490609645843506
 latitude: 51.450111389160156
 image:
-  title: Mike-vS.jpg
-  caption: Mike van Santvoort
-  caption_url: https://research.tue.nl/en/persons/mike-van-santvoort/
+  title: Simon_B.jpg
+  caption: Simon Briend
+  caption_url: https://simon-briend.github.io/
   image_fullwidth: "header_unsplash_12.jpg"
 author: mo
 ---
 
 ## [Link to Join Zoom Meeting](https://wias-berlin-de.zoom-x.de/j/66747761513?pwd=nfPUbXHA8aLmyo4qESwbRxTkcF1kSA.1)
 
-**This talk will be broadcast at 13:30 BT / 14:30 CET / 15:30 EET, May 27th, 2026 on Zoom only. **
+**This talk will be broadcast at 13:30 BST / 14:30 CEST / 15:30 EEST, September 30th, 2026 on Zoom only. **
 
 Meeting-ID: 667 4776 1513
 Passcode: 834059
 
 ## Abstract
+In this joint work with Johannes Bäumler and Joost Jorristma, we estimate the arrival time of vertices in a uniform random recursive tree from its unlabeled structure. Using centrality-based rankings, we derive tail bounds for the relative estimation error that are uniform in the vertex and the tree size. For the ranking induced by Jordan centrality, the probability that the estimate exceeds the true arrival time by a factor $S$ decays on the order of $1/S$, while the probability that it is smaller than the true arrival time by a factor $1/S$ decays exponentially in $S$. We introduce a refined centrality measure whose overestimation probability decays on the order of $(\log S)/S^{2}$, at the cost of a heavier lower tail of order $1/S^{2}$. These results identify a tradeoff between upper- and lower-tail performance in arrival-time estimation.
 
-We present and study a mathematical framework to model cell to cell interactions in cancerous tissue. This frame work is called the Random Cell-cell Interaction Generator (RaCInG) and builds random graphs that represent cellular communication based on bulk RNA-seq data. In this talk we will first formalize the framework as a Monte-Carlo algorithm, and show that consistent biological properties can derived from it despite relying on some random choices to generate its output. Then, we analyze this framework mathematically and show it is asymptotically equivalent to a specific version of the inhomogeneous random digraph model. Thereafter, we will use this asymptotic equivalence to extract a large number of biological properties from a melanoma dataset and show that RaCInG is able to predict immunotherapy response within this dataset. Finally, we highlight that RaCInG is flexible enough to be generalized to other data modalities, and apply one such generalization to a glioblastoma cohort to showcase how it can learn spatially aware cellular communication patterns.
+## About Simon
+Simon is a postdoc at Unidistance in the Team of David Belius. Before that, he was a postdoc fellow at the Simons Laufer Mathematical Science Institute for the Probability and Statistics of Discrete Structures program. He was a PhD student at Universitat Pompeu Fabra and Université Paris Saclay. His advisors were Gabor Lugosi and Christophe Giraud.
 
-## About Mike
-Mike is a final-year PhD student at Eindhoven University of Technology. His research focusses on using random graph models to infer how cells in cancerous tissue communicate with each other. He is both interested in understanding these models on a fundamental level, as well as applying them to real-life datasets to understand the mechanisms in which tumors proliferate and evade the immune system. Apart from his research interests, Mike is a licensed high school teacher and is interested in developing new ways to teach and assess mathematics. During his PhD, he developed several new courses at the TU/e, and has researched the impact of alternative assessments to student engagement and performance.
+Simon works on probability and statistics problems. Most of his research is in combinatorial statistics, where he is interested in inferring the past of growing random graphs from a snapshot of their present state. He is also interested in Spin-Glasses models. Finally, he is interested in theoretical machine learning and high dimensional statistics.
