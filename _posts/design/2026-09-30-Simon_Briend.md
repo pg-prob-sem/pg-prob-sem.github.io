@@ -2,8 +2,8 @@
 layout: page
 subheadline: September 30th, 2026
 title: "Estimating the history of random recursive tree"
-teaser: "  "
-meta_teaser: "  "
+teaser: " Simon shows us how to estimate the arrival time of vertices in a uniform random recursive tree from its unlabeled structure, using centrality-based rankings."
+meta_teaser: " Simon shows us how to estimate the arrival time of vertices in a uniform random recursive tree from its unlabeled structure, using centrality-based rankings. "
 speaker: "Simon Briend"
 uni: "UniDistance Suisse"
 breadcrumb: true
@@ -11,8 +11,8 @@ categories:
   - random_graphs
 tags:
   - published
-longitude: 5.490609645843506
-latitude: 51.450111389160156
+longitude: 7.994672
+latitude: 46.318557
 image:
   title: Simon_B.jpg
   caption: Simon Briend
