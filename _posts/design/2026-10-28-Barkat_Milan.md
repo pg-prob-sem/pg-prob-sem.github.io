@@ -28,7 +28,7 @@ author: mo
 Meeting-ID: 667 4776 1513
 Passcode: 834059
 
-# Please note that we start 30 mins earlier than usually. 
+*Please note that we start 30 mins earlier than usually.* 
 
 ## Abstract
 TBA
