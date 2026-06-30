@@ -26,6 +26,7 @@ author: mo
 __This talk will be broadcast at 13:00 BT / 14:0 CET / 15:00 EET, September 30th, 2026 on Zoom only.__
 
 Meeting-ID: 667 4776 1513
+
 Passcode: 834059
 
 *Please note that we start 30 mins earlier than usually.* 
