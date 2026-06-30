@@ -23,7 +23,7 @@ author: mo
 
 ## [Link to Join Zoom Meeting](https://wias-berlin-de.zoom-x.de/j/66747761513?pwd=nfPUbXHA8aLmyo4qESwbRxTkcF1kSA.1)
 
-**This talk will be broadcast at 13:00 BT / 14:0 CET / 15:00 EET, September 30th, 2026 on Zoom only. **
+__This talk will be broadcast at 13:00 BT / 14:0 CET / 15:00 EET, September 30th, 2026 on Zoom only.__
 
 Meeting-ID: 667 4776 1513
 Passcode: 834059
