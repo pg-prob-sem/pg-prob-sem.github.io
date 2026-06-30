@@ -34,7 +34,7 @@ Passcode: 834059
 ## Abstract
 We study the pathwise behavior of the three-dimensional attractive one-point interaction diffusion whose law was constructed by Cranston, Koralov, Molchanov, and Vainberg in [*Random Oper. Stoch. Equ. 18 (2010)*], corresponding to the singular Schrödinger Hamiltonian
 
-$\frac{1}{2}\Delta+\frac{\beta}{2}\delta_0(\cdot), \beta>0.$
+$\frac{1}{2}\Delta+\frac{\beta}{2}\delta_0(\cdot)$,  $\beta>0.$
 
 We derive a local stochastic differential equation satisfied by the process away from the origin and use it to construct a natural submartingale whose increasing component in the Doob-Meyer decomposition is supported on the set of times at which the process visits the origin. In particular, we show that the process visits the origin with positive probability and that the law conditioned on avoiding the origin is three-dimensional Wiener measure. In this talk, I will also present a comparison of these results with those for the corresponding two-dimensional attractive one-point interaction diffusion, obtained in joint work with Jeremy Clark [*Electron. J. Probab. 30 (2025)*].
 
