@@ -1,14 +1,14 @@
 ---
 layout: page
-subheadline: September 30th, 2026
-title: "Estimating the history of random recursive tree"
-teaser: " Simon shows us how to estimate the arrival time of vertices in a uniform random recursive tree from its unlabeled structure, using centrality-based rankings."
-meta_teaser: " Simon shows us how to estimate the arrival time of vertices in a uniform random recursive tree from its unlabeled structure, using centrality-based rankings. "
-speaker: "Simon Briend"
-uni: "UniDistance Suisse"
+subheadline: October 28th, 2026
+title: "Pathwise Structure of the Three-Dimensional Attractive One-Point Interaction Diffusion"
+teaser: "TBA"
+meta_teaser: "TBA"
+speaker: "Barkat Milan"
+uni: "University of Tennessee, Knoxville"
 breadcrumb: true
 categories:
-  - random_graphs
+  - SPDE
 tags:
   - published
 longitude: 7.994672
