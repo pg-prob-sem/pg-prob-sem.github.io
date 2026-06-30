@@ -2,8 +2,10 @@
 layout: page
 subheadline: October 28th, 2026
 title: "Pathwise Structure of the Three-Dimensional Attractive One-Point Interaction Diffusion"
-teaser: "TBA"
-meta_teaser: "TBA"
+teaser: "How does a Brownian particle behave under an attractive point interaction concentrated at the origin?
+Barkat will describe the three-dimensional diffusion associated with this singular Hamiltonian, showing how its visits to the origin are encoded by a natural Doob–Meyer decomposition and how this contrasts with the two-dimensional case."
+meta_teaser: "How does a Brownian particle behave under an attractive point interaction concentrated at the origin?
+Barkat will describe the three-dimensional diffusion associated with this singular Hamiltonian, showing how its visits to the origin are encoded by a natural Doob–Meyer decomposition and how this contrasts with the two-dimensional case."
 speaker: "Barkat Mian"
 uni: "University of Tennessee, Knoxville"
 breadcrumb: true
